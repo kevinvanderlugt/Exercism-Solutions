@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BD1AA87F3000CA652B /* EtlTest.swift */; };
+		920F65C01AA87F4F00CA652B /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BF1AA87F4F00CA652B /* ETL.swift */; };
+		920F65C11AA87F6F00CA652B /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BF1AA87F4F00CA652B /* ETL.swift */; };
 		923ADD6A1A9A067500CF6D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923ADD691A9A067500CF6D3F /* AppDelegate.swift */; };
 		923ADD6C1A9A067500CF6D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923ADD6B1A9A067500CF6D3F /* ViewController.swift */; };
 		923ADD6F1A9A067500CF6D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923ADD6D1A9A067500CF6D3F /* Main.storyboard */; };
@@ -25,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		920F65BD1AA87F3000CA652B /* EtlTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtlTest.swift; sourceTree = "<group>"; };
+		920F65BF1AA87F4F00CA652B /* ETL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETL.swift; sourceTree = "<group>"; };
 		923ADD641A9A067500CF6D3F /* exercism-test-runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "exercism-test-runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		923ADD681A9A067500CF6D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		923ADD691A9A067500CF6D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +96,7 @@
 				923ADD8B1A9A075E00CF6D3F /* Bob.swift */,
 				928FD3511A9C7C7200BC1372 /* Hamming.swift */,
 				92C8BB331AA730AE00C448F0 /* WordCount.swift */,
+				920F65BF1AA87F4F00CA652B /* ETL.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -106,6 +112,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				920F65BD1AA87F3000CA652B /* EtlTest.swift */,
 				92C8BB311AA7302400C448F0 /* WordCountTest.swift */,
 				928C31631A9C7B9F008F1A06 /* HammingTest.swift */,
 				923ADD891A9A072900CF6D3F /* BobTest.swift */,
@@ -222,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92C8BB341AA730AE00C448F0 /* WordCount.swift in Sources */,
+				920F65C01AA87F4F00CA652B /* ETL.swift in Sources */,
 				923ADD8C1A9A075E00CF6D3F /* Bob.swift in Sources */,
 				928FD3521A9C7C7200BC1372 /* Hamming.swift in Sources */,
 				923ADD6C1A9A067500CF6D3F /* ViewController.swift in Sources */,
@@ -234,10 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				928FD3531A9C7C9000BC1372 /* Hamming.swift in Sources */,
+				920F65C11AA87F6F00CA652B /* ETL.swift in Sources */,
 				923ADD8D1A9A077100CF6D3F /* Bob.swift in Sources */,
 				928C31641A9C7B9F008F1A06 /* HammingTest.swift in Sources */,
 				92C8BB351AA730B300C448F0 /* WordCount.swift in Sources */,
 				92C8BB321AA7302400C448F0 /* WordCountTest.swift in Sources */,
+				920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */,
 				923ADD801A9A067600CF6D3F /* exercism_test_runnerTests.swift in Sources */,
 				923ADD8A1A9A072900CF6D3F /* BobTest.swift in Sources */,
 			);
