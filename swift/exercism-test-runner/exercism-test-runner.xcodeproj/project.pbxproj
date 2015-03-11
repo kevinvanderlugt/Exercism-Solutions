@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920A93631AB0A54D004032A5 /* GradeSchoolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93621AB0A54D004032A5 /* GradeSchoolTest.swift */; };
+		920A93651AB0A60B004032A5 /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93641AB0A60B004032A5 /* GradeSchool.swift */; };
+		920A93661AB0A620004032A5 /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93641AB0A60B004032A5 /* GradeSchool.swift */; };
 		920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BD1AA87F3000CA652B /* EtlTest.swift */; };
 		920F65C01AA87F4F00CA652B /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BF1AA87F4F00CA652B /* ETL.swift */; };
 		920F65C11AA87F6F00CA652B /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BF1AA87F4F00CA652B /* ETL.swift */; };
@@ -37,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		920A93621AB0A54D004032A5 /* GradeSchoolTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchoolTest.swift; sourceTree = "<group>"; };
+		920A93641AB0A60B004032A5 /* GradeSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchool.swift; sourceTree = "<group>"; };
 		920F65BD1AA87F3000CA652B /* EtlTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtlTest.swift; sourceTree = "<group>"; };
 		920F65BF1AA87F4F00CA652B /* ETL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETL.swift; sourceTree = "<group>"; };
 		922B73EA1AA9F37D00CCBEC7 /* AnagramTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnagramTest.swift; sourceTree = "<group>"; };
@@ -115,6 +120,7 @@
 				922B73EC1AA9F39E00CCBEC7 /* Anagram.swift */,
 				9242B7B81AAB44EC00F0C7EC /* DNA.swift */,
 				92FC5E9B1AACA72900A0BA49 /* PhoneNumber.swift */,
+				920A93641AB0A60B004032A5 /* GradeSchool.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				920A93621AB0A54D004032A5 /* GradeSchoolTest.swift */,
 				92FC5E991AACA58E00A0BA49 /* PhoneNumberTest.swift */,
 				9242B7B61AAB44B400F0C7EC /* NucleotideCountTest.swift */,
 				922B73EA1AA9F37D00CCBEC7 /* AnagramTest.swift */,
@@ -254,6 +261,7 @@
 				92FC5E9C1AACA72900A0BA49 /* PhoneNumber.swift in Sources */,
 				920F65C01AA87F4F00CA652B /* ETL.swift in Sources */,
 				923ADD8C1A9A075E00CF6D3F /* Bob.swift in Sources */,
+				920A93651AB0A60B004032A5 /* GradeSchool.swift in Sources */,
 				928FD3521A9C7C7200BC1372 /* Hamming.swift in Sources */,
 				923ADD6C1A9A067500CF6D3F /* ViewController.swift in Sources */,
 				923ADD6A1A9A067500CF6D3F /* AppDelegate.swift in Sources */,
@@ -269,6 +277,7 @@
 				92FC5E9A1AACA58E00A0BA49 /* PhoneNumberTest.swift in Sources */,
 				920F65C11AA87F6F00CA652B /* ETL.swift in Sources */,
 				923ADD8D1A9A077100CF6D3F /* Bob.swift in Sources */,
+				920A93661AB0A620004032A5 /* GradeSchool.swift in Sources */,
 				928C31641A9C7B9F008F1A06 /* HammingTest.swift in Sources */,
 				92C8BB351AA730B300C448F0 /* WordCount.swift in Sources */,
 				9242B7B71AAB44B400F0C7EC /* NucleotideCountTest.swift in Sources */,
@@ -276,6 +285,7 @@
 				92FC5E9D1AACA74B00A0BA49 /* PhoneNumber.swift in Sources */,
 				920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */,
 				922B73EE1AA9F40100CCBEC7 /* Anagram.swift in Sources */,
+				920A93631AB0A54D004032A5 /* GradeSchoolTest.swift in Sources */,
 				922B73EB1AA9F37D00CCBEC7 /* AnagramTest.swift in Sources */,
 				9242B7BA1AAB46AB00F0C7EC /* DNA.swift in Sources */,
 				923ADD801A9A067600CF6D3F /* exercism_test_runnerTests.swift in Sources */,
