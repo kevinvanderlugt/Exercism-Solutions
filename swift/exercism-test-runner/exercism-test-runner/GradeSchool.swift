@@ -11,7 +11,7 @@ class GradeSchool {
     
     func studentsInGrade(grade: Int) -> [String] {
         return db[grade] ?? []
-    }g
+    }
     
     func sortedRoster() -> [Int: [String]] {
         var sortedDb = db
