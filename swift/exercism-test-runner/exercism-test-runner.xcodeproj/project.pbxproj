@@ -10,6 +10,9 @@
 		920A93631AB0A54D004032A5 /* GradeSchoolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93621AB0A54D004032A5 /* GradeSchoolTest.swift */; };
 		920A93651AB0A60B004032A5 /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93641AB0A60B004032A5 /* GradeSchool.swift */; };
 		920A93661AB0A620004032A5 /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93641AB0A60B004032A5 /* GradeSchool.swift */; };
+		920A93681AB1C61D004032A5 /* RobotNameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93671AB1C61D004032A5 /* RobotNameTest.swift */; };
+		920A936A1AB1C639004032A5 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93691AB1C639004032A5 /* Robot.swift */; };
+		920A936B1AB1C68F004032A5 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93691AB1C639004032A5 /* Robot.swift */; };
 		920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BD1AA87F3000CA652B /* EtlTest.swift */; };
 		920F65C01AA87F4F00CA652B /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BF1AA87F4F00CA652B /* ETL.swift */; };
 		920F65C11AA87F6F00CA652B /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BF1AA87F4F00CA652B /* ETL.swift */; };
@@ -42,6 +45,8 @@
 /* Begin PBXFileReference section */
 		920A93621AB0A54D004032A5 /* GradeSchoolTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchoolTest.swift; sourceTree = "<group>"; };
 		920A93641AB0A60B004032A5 /* GradeSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchool.swift; sourceTree = "<group>"; };
+		920A93671AB1C61D004032A5 /* RobotNameTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotNameTest.swift; sourceTree = "<group>"; };
+		920A93691AB1C639004032A5 /* Robot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
 		920F65BD1AA87F3000CA652B /* EtlTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtlTest.swift; sourceTree = "<group>"; };
 		920F65BF1AA87F4F00CA652B /* ETL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETL.swift; sourceTree = "<group>"; };
 		922B73EA1AA9F37D00CCBEC7 /* AnagramTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnagramTest.swift; sourceTree = "<group>"; };
@@ -121,6 +126,7 @@
 				9242B7B81AAB44EC00F0C7EC /* DNA.swift */,
 				92FC5E9B1AACA72900A0BA49 /* PhoneNumber.swift */,
 				920A93641AB0A60B004032A5 /* GradeSchool.swift */,
+				920A93691AB1C639004032A5 /* Robot.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				920A93671AB1C61D004032A5 /* RobotNameTest.swift */,
 				920A93621AB0A54D004032A5 /* GradeSchoolTest.swift */,
 				92FC5E991AACA58E00A0BA49 /* PhoneNumberTest.swift */,
 				9242B7B61AAB44B400F0C7EC /* NucleotideCountTest.swift */,
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				922B73ED1AA9F39E00CCBEC7 /* Anagram.swift in Sources */,
+				920A936A1AB1C639004032A5 /* Robot.swift in Sources */,
 				92C8BB341AA730AE00C448F0 /* WordCount.swift in Sources */,
 				92FC5E9C1AACA72900A0BA49 /* PhoneNumber.swift in Sources */,
 				920F65C01AA87F4F00CA652B /* ETL.swift in Sources */,
@@ -281,6 +289,7 @@
 				928C31641A9C7B9F008F1A06 /* HammingTest.swift in Sources */,
 				92C8BB351AA730B300C448F0 /* WordCount.swift in Sources */,
 				9242B7B71AAB44B400F0C7EC /* NucleotideCountTest.swift in Sources */,
+				920A936B1AB1C68F004032A5 /* Robot.swift in Sources */,
 				92C8BB321AA7302400C448F0 /* WordCountTest.swift in Sources */,
 				92FC5E9D1AACA74B00A0BA49 /* PhoneNumber.swift in Sources */,
 				920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */,
@@ -288,6 +297,7 @@
 				920A93631AB0A54D004032A5 /* GradeSchoolTest.swift in Sources */,
 				922B73EB1AA9F37D00CCBEC7 /* AnagramTest.swift in Sources */,
 				9242B7BA1AAB46AB00F0C7EC /* DNA.swift in Sources */,
+				920A93681AB1C61D004032A5 /* RobotNameTest.swift in Sources */,
 				923ADD801A9A067600CF6D3F /* exercism_test_runnerTests.swift in Sources */,
 				923ADD8A1A9A072900CF6D3F /* BobTest.swift in Sources */,
 			);
