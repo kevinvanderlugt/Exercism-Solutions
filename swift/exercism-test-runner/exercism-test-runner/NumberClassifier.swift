@@ -18,7 +18,7 @@ struct NumberClassifier {
     
     private func aliquotSum(number: Int) -> Int {
         var aliquotSum = 0
-        for i in 1..<number {
+        for i in 1...abs(number / 2) {
             if(number % i == 0) { aliquotSum += i }
         }
         return aliquotSum
