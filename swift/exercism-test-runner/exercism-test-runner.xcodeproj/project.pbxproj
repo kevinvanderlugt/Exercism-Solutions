@@ -31,6 +31,9 @@
 		9242B7B71AAB44B400F0C7EC /* NucleotideCountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242B7B61AAB44B400F0C7EC /* NucleotideCountTest.swift */; };
 		9242B7B91AAB44EC00F0C7EC /* DNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242B7B81AAB44EC00F0C7EC /* DNA.swift */; };
 		9242B7BA1AAB46AB00F0C7EC /* DNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242B7B81AAB44EC00F0C7EC /* DNA.swift */; };
+		925AC56B1AB3036700064358 /* PerfectNumbersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AC56A1AB3036700064358 /* PerfectNumbersTest.swift */; };
+		925AC56D1AB3042700064358 /* NumberClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AC56C1AB3042700064358 /* NumberClassifier.swift */; };
+		925AC56E1AB3045D00064358 /* NumberClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AC56C1AB3042700064358 /* NumberClassifier.swift */; };
 		928C31641A9C7B9F008F1A06 /* HammingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928C31631A9C7B9F008F1A06 /* HammingTest.swift */; };
 		928FD3521A9C7C7200BC1372 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FD3511A9C7C7200BC1372 /* Hamming.swift */; };
 		928FD3531A9C7C9000BC1372 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FD3511A9C7C7200BC1372 /* Hamming.swift */; };
@@ -65,6 +68,8 @@
 		923ADD8B1A9A075E00CF6D3F /* Bob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bob.swift; sourceTree = "<group>"; };
 		9242B7B61AAB44B400F0C7EC /* NucleotideCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NucleotideCountTest.swift; sourceTree = "<group>"; };
 		9242B7B81AAB44EC00F0C7EC /* DNA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNA.swift; sourceTree = "<group>"; };
+		925AC56A1AB3036700064358 /* PerfectNumbersTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfectNumbersTest.swift; sourceTree = "<group>"; };
+		925AC56C1AB3042700064358 /* NumberClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberClassifier.swift; sourceTree = "<group>"; };
 		928C31631A9C7B9F008F1A06 /* HammingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HammingTest.swift; sourceTree = "<group>"; };
 		928FD3511A9C7C7200BC1372 /* Hamming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamming.swift; sourceTree = "<group>"; };
 		92C8BB311AA7302400C448F0 /* WordCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCountTest.swift; sourceTree = "<group>"; };
@@ -127,6 +132,7 @@
 				92FC5E9B1AACA72900A0BA49 /* PhoneNumber.swift */,
 				920A93641AB0A60B004032A5 /* GradeSchool.swift */,
 				920A93691AB1C639004032A5 /* Robot.swift */,
+				925AC56C1AB3042700064358 /* NumberClassifier.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -142,6 +148,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				925AC56A1AB3036700064358 /* PerfectNumbersTest.swift */,
 				920A93671AB1C61D004032A5 /* RobotNameTest.swift */,
 				920A93621AB0A54D004032A5 /* GradeSchoolTest.swift */,
 				92FC5E991AACA58E00A0BA49 /* PhoneNumberTest.swift */,
@@ -274,6 +281,7 @@
 				923ADD6C1A9A067500CF6D3F /* ViewController.swift in Sources */,
 				923ADD6A1A9A067500CF6D3F /* AppDelegate.swift in Sources */,
 				9242B7B91AAB44EC00F0C7EC /* DNA.swift in Sources */,
+				925AC56D1AB3042700064358 /* NumberClassifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				92FC5E9A1AACA58E00A0BA49 /* PhoneNumberTest.swift in Sources */,
 				920F65C11AA87F6F00CA652B /* ETL.swift in Sources */,
 				923ADD8D1A9A077100CF6D3F /* Bob.swift in Sources */,
+				925AC56B1AB3036700064358 /* PerfectNumbersTest.swift in Sources */,
 				920A93661AB0A620004032A5 /* GradeSchool.swift in Sources */,
 				928C31641A9C7B9F008F1A06 /* HammingTest.swift in Sources */,
 				92C8BB351AA730B300C448F0 /* WordCount.swift in Sources */,
@@ -300,6 +309,7 @@
 				920A93681AB1C61D004032A5 /* RobotNameTest.swift in Sources */,
 				923ADD801A9A067600CF6D3F /* exercism_test_runnerTests.swift in Sources */,
 				923ADD8A1A9A072900CF6D3F /* BobTest.swift in Sources */,
+				925AC56E1AB3045D00064358 /* NumberClassifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
