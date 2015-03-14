@@ -7,12 +7,16 @@
 //
 
 struct Allergies {
-    var score: UInt
+    static let eggs: UInt   = 1 << 0,
+        peanuts: UInt       = 1 << 1,
+        shellfish: UInt     = 1 << 2,
+        strawberries: UInt  = 1 << 3,
+        tomatoes: UInt      = 1 << 4,
+        chocolate: UInt     = 1 << 5,
+        pollen: UInt        = 1 << 6,
+        cats: UInt          = 1 << 7
     
-    static let eggs:UInt = 1, peanuts:UInt = 2, shellfish:UInt = 4,
-    strawberries:UInt = 8, tomatoes:UInt = 16, chocolate:UInt = 32,
-    pollen:UInt = 64, cats:UInt = 128
-    
+    private var score: UInt
     init(_ score: UInt) {
         self.score = score
     }
