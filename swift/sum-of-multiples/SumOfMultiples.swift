@@ -8,13 +8,7 @@
 import Foundation
 
 struct SumOfMultiples {
-    static let defaultMultiples = [3,5]
-
-    static func toLimit(limit: Int) -> Int {
-        return self.toLimit(limit, inMultiples: defaultMultiples)
-    }
-    
-    static func toLimit(limit: Int, inMultiples: [Int]) -> Int {
+    static func toLimit(limit: Int, inMultiples: [Int] = [3,5]) -> Int {
         let filteredArray = Array(0..<limit).filter {
             self.isMultiple($0, ofMultiples: inMultiples)
         }

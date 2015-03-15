@@ -42,5 +42,4 @@ class SumOfMultiplesTest:XCTestCase {
     func testConfigurable_0_1_to_10(){
         XCTAssertEqual(45,  SumOfMultiples.toLimit(10, inMultiples: [0, 1]))
     }
-    
 }
