@@ -8,19 +8,17 @@
 
 import Foundation
 
-infix operator ** {}
-func ** (num: Double, power: Double) -> Double{
-    return pow(num, power)
-}
-
 struct Gigasecond {
-    static let gigasecond: NSTimeInterval = { return NSTimeInterval(10**9) }()
-    
     static func from(birthday: String) -> NSDate {
+        let gigasecond = pow(10.0, 9.0)
+        
         var dateFormatter = NSDateFormatter()
         dateFormatter.timeZone = NSTimeZone(forSecondsFromGMT: 0)
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
-        let birthdate = dateFormatter.dateFromString(birthday)!
-        return birthdate.dateByAddingTimeInterval(gigasecond)
+        
+        if let birthdate = dateFormatter.dateFromString(birthday) {
+            return birthdate.dateByAddingTimeInterval(gigasecond)
+        }
+        return NSDate.distantFuture() as NSDate
     }
 }
