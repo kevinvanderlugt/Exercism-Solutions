@@ -49,6 +49,9 @@
 		92CF053D1ABB37BA00B0C431 /* GigasecondTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF053C1ABB37BA00B0C431 /* GigasecondTest.swift */; };
 		92CF053F1ABB37FB00B0C431 /* Gigasecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF053E1ABB37FB00B0C431 /* Gigasecond.swift */; };
 		92CF05401ABB395B00B0C431 /* Gigasecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF053E1ABB37FB00B0C431 /* Gigasecond.swift */; };
+		92CF05421ABC18DD00B0C431 /* MeetupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF05411ABC18DD00B0C431 /* MeetupTest.swift */; };
+		92CF05451ABC1A9D00B0C431 /* Meetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF05441ABC1A9D00B0C431 /* Meetup.swift */; };
+		92CF05461ABC1A9D00B0C431 /* Meetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF05441ABC1A9D00B0C431 /* Meetup.swift */; };
 		92DCCB481AB46D460030F433 /* AllergiesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCCB471AB46D460030F433 /* AllergiesTest.swift */; };
 		92DCCB4A1AB46DB90030F433 /* Allergies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCCB491AB46DB90030F433 /* Allergies.swift */; };
 		92DCCB4B1AB46E300030F433 /* Allergies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCCB491AB46DB90030F433 /* Allergies.swift */; };
@@ -98,6 +101,8 @@
 		92C8BB331AA730AE00C448F0 /* WordCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCount.swift; sourceTree = "<group>"; };
 		92CF053C1ABB37BA00B0C431 /* GigasecondTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GigasecondTest.swift; sourceTree = "<group>"; };
 		92CF053E1ABB37FB00B0C431 /* Gigasecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gigasecond.swift; sourceTree = "<group>"; };
+		92CF05411ABC18DD00B0C431 /* MeetupTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupTest.swift; sourceTree = "<group>"; };
+		92CF05441ABC1A9D00B0C431 /* Meetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meetup.swift; sourceTree = "<group>"; };
 		92DCCB471AB46D460030F433 /* AllergiesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllergiesTest.swift; sourceTree = "<group>"; };
 		92DCCB491AB46DB90030F433 /* Allergies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Allergies.swift; sourceTree = "<group>"; };
 		92DCCB4C1AB57D2D0030F433 /* AccumulateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccumulateTest.swift; sourceTree = "<group>"; };
@@ -147,6 +152,7 @@
 		923ADD661A9A067500CF6D3F /* exercism-test-runner */ = {
 			isa = PBXGroup;
 			children = (
+				92CF05431ABC1A8C00B0C431 /* New Group */,
 				923ADD691A9A067500CF6D3F /* AppDelegate.swift */,
 				923ADD6B1A9A067500CF6D3F /* ViewController.swift */,
 				923ADD6D1A9A067500CF6D3F /* Main.storyboard */,
@@ -169,6 +175,7 @@
 				9254789B1AB99D4C006119A8 /* TwelveDaysSong.swift */,
 				925478A11AB9A83A006119A8 /* SpaceAge.swift */,
 				92CF053E1ABB37FB00B0C431 /* Gigasecond.swift */,
+				92CF05441ABC1A9D00B0C431 /* Meetup.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -184,6 +191,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				92CF05411ABC18DD00B0C431 /* MeetupTest.swift */,
 				92CF053C1ABB37BA00B0C431 /* GigasecondTest.swift */,
 				9254789E1AB9A7CE006119A8 /* SpaceAgeTest.swift */,
 				925478991AB99CEE006119A8 /* TwelveDaysTest.swift */,
@@ -212,6 +220,13 @@
 				923ADD7E1A9A067600CF6D3F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92CF05431ABC1A8C00B0C431 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +335,7 @@
 				920F65C01AA87F4F00CA652B /* ETL.swift in Sources */,
 				923ADD8C1A9A075E00CF6D3F /* Bob.swift in Sources */,
 				92CF053F1ABB37FB00B0C431 /* Gigasecond.swift in Sources */,
+				92CF05451ABC1A9D00B0C431 /* Meetup.swift in Sources */,
 				92DCCB4A1AB46DB90030F433 /* Allergies.swift in Sources */,
 				92DCCB4F1AB57E730030F433 /* Accumulate.swift in Sources */,
 				92DCCB541AB5BEF40030F433 /* SumOfMultiples.swift in Sources */,
@@ -344,9 +360,11 @@
 				920F65C11AA87F6F00CA652B /* ETL.swift in Sources */,
 				92DCCB4D1AB57D2D0030F433 /* AccumulateTest.swift in Sources */,
 				923ADD8D1A9A077100CF6D3F /* Bob.swift in Sources */,
+				92CF05421ABC18DD00B0C431 /* MeetupTest.swift in Sources */,
 				92DCCB481AB46D460030F433 /* AllergiesTest.swift in Sources */,
 				925AC56B1AB3036700064358 /* PerfectNumbersTest.swift in Sources */,
 				920A93661AB0A620004032A5 /* GradeSchool.swift in Sources */,
+				92CF05461ABC1A9D00B0C431 /* Meetup.swift in Sources */,
 				92CF05401ABB395B00B0C431 /* Gigasecond.swift in Sources */,
 				928C31641A9C7B9F008F1A06 /* HammingTest.swift in Sources */,
 				925478A01AB9A7CE006119A8 /* SpaceAgeTest.swift in Sources */,
