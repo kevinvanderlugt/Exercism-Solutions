@@ -40,6 +40,9 @@
 		925AC56B1AB3036700064358 /* PerfectNumbersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AC56A1AB3036700064358 /* PerfectNumbersTest.swift */; };
 		925AC56D1AB3042700064358 /* NumberClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AC56C1AB3042700064358 /* NumberClassifier.swift */; };
 		925AC56E1AB3045D00064358 /* NumberClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AC56C1AB3042700064358 /* NumberClassifier.swift */; };
+		928BDE171ABDE0F00027DDC8 /* TriangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928BDE161ABDE0F00027DDC8 /* TriangleTest.swift */; };
+		928BDE191ABDE1400027DDC8 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928BDE181ABDE1400027DDC8 /* Triangle.swift */; };
+		928BDE1A1ABDE4AB0027DDC8 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928BDE181ABDE1400027DDC8 /* Triangle.swift */; };
 		928C31641A9C7B9F008F1A06 /* HammingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928C31631A9C7B9F008F1A06 /* HammingTest.swift */; };
 		928FD3521A9C7C7200BC1372 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FD3511A9C7C7200BC1372 /* Hamming.swift */; };
 		928FD3531A9C7C9000BC1372 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FD3511A9C7C7200BC1372 /* Hamming.swift */; };
@@ -95,6 +98,8 @@
 		925478A11AB9A83A006119A8 /* SpaceAge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceAge.swift; sourceTree = "<group>"; };
 		925AC56A1AB3036700064358 /* PerfectNumbersTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfectNumbersTest.swift; sourceTree = "<group>"; };
 		925AC56C1AB3042700064358 /* NumberClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberClassifier.swift; sourceTree = "<group>"; };
+		928BDE161ABDE0F00027DDC8 /* TriangleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleTest.swift; sourceTree = "<group>"; };
+		928BDE181ABDE1400027DDC8 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		928C31631A9C7B9F008F1A06 /* HammingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HammingTest.swift; sourceTree = "<group>"; };
 		928FD3511A9C7C7200BC1372 /* Hamming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamming.swift; sourceTree = "<group>"; };
 		92C8BB311AA7302400C448F0 /* WordCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCountTest.swift; sourceTree = "<group>"; };
@@ -176,6 +181,7 @@
 				925478A11AB9A83A006119A8 /* SpaceAge.swift */,
 				92CF053E1ABB37FB00B0C431 /* Gigasecond.swift */,
 				92CF05441ABC1A9D00B0C431 /* Meetup.swift */,
+				928BDE181ABDE1400027DDC8 /* Triangle.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -191,6 +197,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				928BDE161ABDE0F00027DDC8 /* TriangleTest.swift */,
 				92CF05411ABC18DD00B0C431 /* MeetupTest.swift */,
 				92CF053C1ABB37BA00B0C431 /* GigasecondTest.swift */,
 				9254789E1AB9A7CE006119A8 /* SpaceAgeTest.swift */,
@@ -334,6 +341,7 @@
 				925478A21AB9A83A006119A8 /* SpaceAge.swift in Sources */,
 				920F65C01AA87F4F00CA652B /* ETL.swift in Sources */,
 				923ADD8C1A9A075E00CF6D3F /* Bob.swift in Sources */,
+				928BDE191ABDE1400027DDC8 /* Triangle.swift in Sources */,
 				92CF053F1ABB37FB00B0C431 /* Gigasecond.swift in Sources */,
 				92CF05451ABC1A9D00B0C431 /* Meetup.swift in Sources */,
 				92DCCB4A1AB46DB90030F433 /* Allergies.swift in Sources */,
@@ -356,6 +364,7 @@
 				928FD3531A9C7C9000BC1372 /* Hamming.swift in Sources */,
 				92FC5E9A1AACA58E00A0BA49 /* PhoneNumberTest.swift in Sources */,
 				92DCCB551AB5BF0A0030F433 /* SumOfMultiples.swift in Sources */,
+				928BDE1A1ABDE4AB0027DDC8 /* Triangle.swift in Sources */,
 				92CF053D1ABB37BA00B0C431 /* GigasecondTest.swift in Sources */,
 				920F65C11AA87F6F00CA652B /* ETL.swift in Sources */,
 				92DCCB4D1AB57D2D0030F433 /* AccumulateTest.swift in Sources */,
@@ -376,6 +385,7 @@
 				92FC5E9D1AACA74B00A0BA49 /* PhoneNumber.swift in Sources */,
 				92DCCB501AB57ECD0030F433 /* Accumulate.swift in Sources */,
 				925478A31AB9A83A006119A8 /* SpaceAge.swift in Sources */,
+				928BDE171ABDE0F00027DDC8 /* TriangleTest.swift in Sources */,
 				920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */,
 				922B73EE1AA9F40100CCBEC7 /* Anagram.swift in Sources */,
 				92DCCB4B1AB46E300030F433 /* Allergies.swift in Sources */,
