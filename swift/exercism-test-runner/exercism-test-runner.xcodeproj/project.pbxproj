@@ -70,6 +70,9 @@
 		92FCD36D1ABF0A4E00448136 /* ScrabbleScoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCD36C1ABF0A4E00448136 /* ScrabbleScoreTest.swift */; };
 		92FCD36F1ABF0AB400448136 /* Scrabble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCD36E1ABF0AB400448136 /* Scrabble.swift */; };
 		92FCD3701ABF0AC800448136 /* Scrabble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCD36E1ABF0AB400448136 /* Scrabble.swift */; };
+		92FCD3721ABF1CE300448136 /* RomanNumeralsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCD3711ABF1CE300448136 /* RomanNumeralsTest.swift */; };
+		92FCD3741ABF1D5F00448136 /* RomanNumerals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCD3731ABF1D5F00448136 /* RomanNumerals.swift */; };
+		92FCD3751ABF1D9700448136 /* RomanNumerals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCD3731ABF1D5F00448136 /* RomanNumerals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -121,6 +124,8 @@
 		92FC5E9B1AACA72900A0BA49 /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
 		92FCD36C1ABF0A4E00448136 /* ScrabbleScoreTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrabbleScoreTest.swift; sourceTree = "<group>"; };
 		92FCD36E1ABF0AB400448136 /* Scrabble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scrabble.swift; sourceTree = "<group>"; };
+		92FCD3711ABF1CE300448136 /* RomanNumeralsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralsTest.swift; sourceTree = "<group>"; };
+		92FCD3731ABF1D5F00448136 /* RomanNumerals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumerals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +193,7 @@
 				92CF05441ABC1A9D00B0C431 /* Meetup.swift */,
 				928BDE181ABDE1400027DDC8 /* Triangle.swift */,
 				92FCD36E1ABF0AB400448136 /* Scrabble.swift */,
+				92FCD3731ABF1D5F00448136 /* RomanNumerals.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				92FCD3711ABF1CE300448136 /* RomanNumeralsTest.swift */,
 				92FCD36C1ABF0A4E00448136 /* ScrabbleScoreTest.swift */,
 				928BDE161ABDE0F00027DDC8 /* TriangleTest.swift */,
 				92CF05411ABC18DD00B0C431 /* MeetupTest.swift */,
@@ -347,6 +354,7 @@
 				92FC5E9C1AACA72900A0BA49 /* PhoneNumber.swift in Sources */,
 				925478A21AB9A83A006119A8 /* SpaceAge.swift in Sources */,
 				920F65C01AA87F4F00CA652B /* ETL.swift in Sources */,
+				92FCD3741ABF1D5F00448136 /* RomanNumerals.swift in Sources */,
 				923ADD8C1A9A075E00CF6D3F /* Bob.swift in Sources */,
 				928BDE191ABDE1400027DDC8 /* Triangle.swift in Sources */,
 				92CF053F1ABB37FB00B0C431 /* Gigasecond.swift in Sources */,
@@ -375,6 +383,7 @@
 				928BDE1A1ABDE4AB0027DDC8 /* Triangle.swift in Sources */,
 				92CF053D1ABB37BA00B0C431 /* GigasecondTest.swift in Sources */,
 				920F65C11AA87F6F00CA652B /* ETL.swift in Sources */,
+				92FCD3751ABF1D9700448136 /* RomanNumerals.swift in Sources */,
 				92FCD36D1ABF0A4E00448136 /* ScrabbleScoreTest.swift in Sources */,
 				92DCCB4D1AB57D2D0030F433 /* AccumulateTest.swift in Sources */,
 				923ADD8D1A9A077100CF6D3F /* Bob.swift in Sources */,
@@ -399,6 +408,7 @@
 				920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */,
 				922B73EE1AA9F40100CCBEC7 /* Anagram.swift in Sources */,
 				92DCCB4B1AB46E300030F433 /* Allergies.swift in Sources */,
+				92FCD3721ABF1CE300448136 /* RomanNumeralsTest.swift in Sources */,
 				920A93631AB0A54D004032A5 /* GradeSchoolTest.swift in Sources */,
 				922B73EB1AA9F37D00CCBEC7 /* AnagramTest.swift in Sources */,
 				92DCCB521AB5BEBA0030F433 /* SumOfMultiplesTest.swift in Sources */,
