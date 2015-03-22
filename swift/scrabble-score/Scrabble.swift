@@ -1,35 +1,13 @@
-//
-//  Scrabble.swift
-//  exercism-test-runner
-//
-//  Created by Kevin VanderLugt on 3/22/15.
-//  Copyright (c) 2015 Alpine Pipeline, LLC. All rights reserved.
-//
-
-import Foundation
-
 struct Scrabble {
-    var word: String?
+    var word: String
+    var score: Int { return Scrabble.score(word) }
     
     init(_ word: String?) {
-        self.word = word
-    }
-    
-    var score: Int {
-        if let word = self.word {
-            return Scrabble.calculateScore(word)
-        }
-        return 0
+        self.word = word ?? ""
     }
     
     static func score(word: String) -> Int {
-        return calculateScore(word)
-    }
-    
-    private static func calculateScore(word: String) -> Int {
-        let uppercaseWord = word.uppercaseString
-        let score = reduce(uppercaseWord, 0, { $0 + self.letterScore($1) })
-        return score
+        return reduce(word.uppercaseString, 0, { $0 + self.letterScore($1) })
     }
     
     static func letterScore(letter: Character) -> Int {
