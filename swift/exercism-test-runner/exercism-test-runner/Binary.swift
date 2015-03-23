@@ -9,19 +9,18 @@
 import Foundation
 
 struct Binary {
-    var binaryString: String
+    var bits: String
     
-    init(_ binaryString: String){
-        self.binaryString = binaryString
+    init(_ bits: String){
+        self.bits = bits
     }
     
     var toDecimal: Int {
         var binary = 0
-        for (index, num) in enumerate(reverse(binaryString)) {
-            if let bit = String(num).toInt() {
-                if( bit < 0 || bit > 1) { return 0 }
-                binary += (String(num).toInt() ?? 0) * Int(pow(2.0, Double(index)))
-            } else {
+        for (index, bit) in enumerate(reverse(bits)) {
+            if bit == "1" {
+                binary += 0x1 << index
+            } else if bit != "0" {
                 return 0
             }
         }
