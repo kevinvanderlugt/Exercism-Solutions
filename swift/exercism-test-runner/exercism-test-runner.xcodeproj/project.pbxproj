@@ -10,6 +10,9 @@
 		920621441AC057A60035212A /* BinaryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920621431AC057A60035212A /* BinaryTest.swift */; };
 		920621461AC057D70035212A /* Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920621451AC057D70035212A /* Binary.swift */; };
 		920621471AC058170035212A /* Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920621451AC057D70035212A /* Binary.swift */; };
+		920621491AC0718F0035212A /* PrimeFactorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920621481AC0718F0035212A /* PrimeFactorsTest.swift */; };
+		9206214B1AC071BA0035212A /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9206214A1AC071BA0035212A /* PrimeFactors.swift */; };
+		9206214C1AC071BE0035212A /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9206214A1AC071BA0035212A /* PrimeFactors.swift */; };
 		920A93631AB0A54D004032A5 /* GradeSchoolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93621AB0A54D004032A5 /* GradeSchoolTest.swift */; };
 		920A93651AB0A60B004032A5 /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93641AB0A60B004032A5 /* GradeSchool.swift */; };
 		920A93661AB0A620004032A5 /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93641AB0A60B004032A5 /* GradeSchool.swift */; };
@@ -81,6 +84,8 @@
 /* Begin PBXFileReference section */
 		920621431AC057A60035212A /* BinaryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTest.swift; sourceTree = "<group>"; };
 		920621451AC057D70035212A /* Binary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binary.swift; sourceTree = "<group>"; };
+		920621481AC0718F0035212A /* PrimeFactorsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeFactorsTest.swift; sourceTree = "<group>"; };
+		9206214A1AC071BA0035212A /* PrimeFactors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeFactors.swift; sourceTree = "<group>"; };
 		920A93621AB0A54D004032A5 /* GradeSchoolTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchoolTest.swift; sourceTree = "<group>"; };
 		920A93641AB0A60B004032A5 /* GradeSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchool.swift; sourceTree = "<group>"; };
 		920A93671AB1C61D004032A5 /* RobotNameTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotNameTest.swift; sourceTree = "<group>"; };
@@ -215,6 +220,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				920621481AC0718F0035212A /* PrimeFactorsTest.swift */,
 				920621431AC057A60035212A /* BinaryTest.swift */,
 				92FCD3711ABF1CE300448136 /* RomanNumeralsTest.swift */,
 				92FCD36C1ABF0A4E00448136 /* ScrabbleScoreTest.swift */,
@@ -253,6 +259,7 @@
 		92CF05431ABC1A8C00B0C431 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				9206214A1AC071BA0035212A /* PrimeFactors.swift */,
 			);
 			name = "New Group";
 			sourceTree = "<group>";
@@ -359,6 +366,7 @@
 				920A936A1AB1C639004032A5 /* Robot.swift in Sources */,
 				92C8BB341AA730AE00C448F0 /* WordCount.swift in Sources */,
 				92FC5E9C1AACA72900A0BA49 /* PhoneNumber.swift in Sources */,
+				9206214B1AC071BA0035212A /* PrimeFactors.swift in Sources */,
 				925478A21AB9A83A006119A8 /* SpaceAge.swift in Sources */,
 				920F65C01AA87F4F00CA652B /* ETL.swift in Sources */,
 				92FCD3741ABF1D5F00448136 /* RomanNumerals.swift in Sources */,
@@ -413,6 +421,7 @@
 				9254789D1AB99D4C006119A8 /* TwelveDaysSong.swift in Sources */,
 				92FC5E9D1AACA74B00A0BA49 /* PhoneNumber.swift in Sources */,
 				92DCCB501AB57ECD0030F433 /* Accumulate.swift in Sources */,
+				920621491AC0718F0035212A /* PrimeFactorsTest.swift in Sources */,
 				925478A31AB9A83A006119A8 /* SpaceAge.swift in Sources */,
 				928BDE171ABDE0F00027DDC8 /* TriangleTest.swift in Sources */,
 				920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */,
@@ -424,6 +433,7 @@
 				92DCCB521AB5BEBA0030F433 /* SumOfMultiplesTest.swift in Sources */,
 				9242B7BA1AAB46AB00F0C7EC /* DNA.swift in Sources */,
 				9254789A1AB99CEE006119A8 /* TwelveDaysTest.swift in Sources */,
+				9206214C1AC071BE0035212A /* PrimeFactors.swift in Sources */,
 				920A93681AB1C61D004032A5 /* RobotNameTest.swift in Sources */,
 				923ADD801A9A067600CF6D3F /* exercism_test_runnerTests.swift in Sources */,
 				923ADD8A1A9A072900CF6D3F /* BobTest.swift in Sources */,
