@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920621441AC057A60035212A /* BinaryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920621431AC057A60035212A /* BinaryTest.swift */; };
+		920621461AC057D70035212A /* Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920621451AC057D70035212A /* Binary.swift */; };
+		920621471AC058170035212A /* Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920621451AC057D70035212A /* Binary.swift */; };
 		920A93631AB0A54D004032A5 /* GradeSchoolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93621AB0A54D004032A5 /* GradeSchoolTest.swift */; };
 		920A93651AB0A60B004032A5 /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93641AB0A60B004032A5 /* GradeSchool.swift */; };
 		920A93661AB0A620004032A5 /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93641AB0A60B004032A5 /* GradeSchool.swift */; };
@@ -76,6 +79,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		920621431AC057A60035212A /* BinaryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTest.swift; sourceTree = "<group>"; };
+		920621451AC057D70035212A /* Binary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binary.swift; sourceTree = "<group>"; };
 		920A93621AB0A54D004032A5 /* GradeSchoolTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchoolTest.swift; sourceTree = "<group>"; };
 		920A93641AB0A60B004032A5 /* GradeSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchool.swift; sourceTree = "<group>"; };
 		920A93671AB1C61D004032A5 /* RobotNameTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotNameTest.swift; sourceTree = "<group>"; };
@@ -194,6 +199,7 @@
 				928BDE181ABDE1400027DDC8 /* Triangle.swift */,
 				92FCD36E1ABF0AB400448136 /* Scrabble.swift */,
 				92FCD3731ABF1D5F00448136 /* RomanNumerals.swift */,
+				920621451AC057D70035212A /* Binary.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -209,6 +215,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				920621431AC057A60035212A /* BinaryTest.swift */,
 				92FCD3711ABF1CE300448136 /* RomanNumeralsTest.swift */,
 				92FCD36C1ABF0A4E00448136 /* ScrabbleScoreTest.swift */,
 				928BDE161ABDE0F00027DDC8 /* TriangleTest.swift */,
@@ -368,6 +375,7 @@
 				923ADD6A1A9A067500CF6D3F /* AppDelegate.swift in Sources */,
 				92FCD36F1ABF0AB400448136 /* Scrabble.swift in Sources */,
 				9242B7B91AAB44EC00F0C7EC /* DNA.swift in Sources */,
+				920621461AC057D70035212A /* Binary.swift in Sources */,
 				9254789C1AB99D4C006119A8 /* TwelveDaysSong.swift in Sources */,
 				925AC56D1AB3042700064358 /* NumberClassifier.swift in Sources */,
 			);
@@ -378,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				928FD3531A9C7C9000BC1372 /* Hamming.swift in Sources */,
+				920621471AC058170035212A /* Binary.swift in Sources */,
 				92FC5E9A1AACA58E00A0BA49 /* PhoneNumberTest.swift in Sources */,
 				92DCCB551AB5BF0A0030F433 /* SumOfMultiples.swift in Sources */,
 				928BDE1A1ABDE4AB0027DDC8 /* Triangle.swift in Sources */,
@@ -385,6 +394,7 @@
 				920F65C11AA87F6F00CA652B /* ETL.swift in Sources */,
 				92FCD3751ABF1D9700448136 /* RomanNumerals.swift in Sources */,
 				92FCD36D1ABF0A4E00448136 /* ScrabbleScoreTest.swift in Sources */,
+				920621441AC057A60035212A /* BinaryTest.swift in Sources */,
 				92DCCB4D1AB57D2D0030F433 /* AccumulateTest.swift in Sources */,
 				923ADD8D1A9A077100CF6D3F /* Bob.swift in Sources */,
 				92CF05421ABC18DD00B0C431 /* MeetupTest.swift in Sources */,
