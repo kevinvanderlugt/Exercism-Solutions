@@ -9,27 +9,17 @@
 import Foundation
 
 extension Array {
-    func keep<T>(predicate: (T) -> Bool) -> [T] {
-        var newArray = [T]()
+    func keep(predicate: (T) -> Bool, comparator: Bool = true) -> Array {
+        var newArray: Array = []
         for object in self {
-            if let object = object as? T {
-                if(predicate(object)) {
-                    newArray.append(object)
-                }
+            if(predicate(object) == comparator) {
+                newArray.append(object)
             }
         }
         return newArray
     }
     
-    func discard<T>(predicate: (T) -> Bool) -> [T] {
-        var newArray = [T]()
-        for object in self {
-            if let object = object as? T {
-                if(!predicate(object)) {
-                    newArray.append(object)
-                }
-            }
-        }
-        return newArray
+    func discard(predicate: (T) -> Bool) -> Array {
+        return keep(predicate, comparator: false)
     }
 }

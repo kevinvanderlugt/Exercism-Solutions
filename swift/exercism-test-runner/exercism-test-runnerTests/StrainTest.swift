@@ -3,9 +3,9 @@ import XCTest
 
 class StrainTest: XCTestCase {
     
-//    func test_empty_keep(){
-//        let emptyIntArray = [Int]()
-//        XCTAssertEqual( emptyIntArray, [].keep{each -> Bool in each < 10} )}
+    func test_empty_keep(){
+        let emptyIntArray = [Int]()
+        XCTAssertEqual( emptyIntArray, [].keep{each -> Bool in each < 10} )}
     
     func test_keep_everything(){
         XCTAssertEqual([1, 2, 3], [1, 2, 3].keep{each -> Bool in each < 10}  )}
@@ -35,8 +35,8 @@ class StrainTest: XCTestCase {
         let result = rows.keep{ each -> Bool in contains((each as [Int]), 5)}
         XCTAssertEqual([[5, 5, 5], [5, 1, 2], [1, 5, 2], [1, 2, 5]], result )}
     
-//    func test_empty_discard(){
-//        XCTAssertEqual([], [].discard {each -> Bool in each < 10} )}
+    func test_empty_discard(){
+        XCTAssertEqual([], [].discard {each -> Bool in each < 10} )}
     
     func test_discard_nothing(){
         XCTAssertEqual([1, 2, 3], [1, 2, 3].discard {each -> Bool in each > 10} )}
