@@ -46,6 +46,9 @@
 		925AC56B1AB3036700064358 /* PerfectNumbersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AC56A1AB3036700064358 /* PerfectNumbersTest.swift */; };
 		925AC56D1AB3042700064358 /* NumberClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AC56C1AB3042700064358 /* NumberClassifier.swift */; };
 		925AC56E1AB3045D00064358 /* NumberClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AC56C1AB3042700064358 /* NumberClassifier.swift */; };
+		925E36AA1AC3D1D600E823D7 /* AtbashTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925E36A91AC3D1D600E823D7 /* AtbashTest.swift */; };
+		925E36AC1AC3D28200E823D7 /* Atbash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925E36AB1AC3D28200E823D7 /* Atbash.swift */; };
+		925E36AD1AC3D2B000E823D7 /* Atbash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925E36AB1AC3D28200E823D7 /* Atbash.swift */; };
 		928BDE171ABDE0F00027DDC8 /* TriangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928BDE161ABDE0F00027DDC8 /* TriangleTest.swift */; };
 		928BDE191ABDE1400027DDC8 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928BDE181ABDE1400027DDC8 /* Triangle.swift */; };
 		928BDE1A1ABDE4AB0027DDC8 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928BDE181ABDE1400027DDC8 /* Triangle.swift */; };
@@ -120,6 +123,8 @@
 		925478A11AB9A83A006119A8 /* SpaceAge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceAge.swift; sourceTree = "<group>"; };
 		925AC56A1AB3036700064358 /* PerfectNumbersTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfectNumbersTest.swift; sourceTree = "<group>"; };
 		925AC56C1AB3042700064358 /* NumberClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberClassifier.swift; sourceTree = "<group>"; };
+		925E36A91AC3D1D600E823D7 /* AtbashTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtbashTest.swift; sourceTree = "<group>"; };
+		925E36AB1AC3D28200E823D7 /* Atbash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atbash.swift; sourceTree = "<group>"; };
 		928BDE161ABDE0F00027DDC8 /* TriangleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleTest.swift; sourceTree = "<group>"; };
 		928BDE181ABDE1400027DDC8 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		928C31631A9C7B9F008F1A06 /* HammingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HammingTest.swift; sourceTree = "<group>"; };
@@ -217,6 +222,7 @@
 				920621451AC057D70035212A /* Binary.swift */,
 				928E58931AC1A791006DE4C9 /* Raindrops.swift */,
 				929308051AC312CF005AA291 /* ArrayKeepDiscard.swift */,
+				925E36AB1AC3D28200E823D7 /* Atbash.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				925E36A91AC3D1D600E823D7 /* AtbashTest.swift */,
 				929308031AC31270005AA291 /* StrainTest.swift */,
 				928E58911AC1A760006DE4C9 /* RaindropsTest.swift */,
 				920621481AC0718F0035212A /* PrimeFactorsTest.swift */,
@@ -390,6 +397,7 @@
 				92CF053F1ABB37FB00B0C431 /* Gigasecond.swift in Sources */,
 				928E58941AC1A791006DE4C9 /* Raindrops.swift in Sources */,
 				92CF05451ABC1A9D00B0C431 /* Meetup.swift in Sources */,
+				925E36AC1AC3D28200E823D7 /* Atbash.swift in Sources */,
 				92DCCB4A1AB46DB90030F433 /* Allergies.swift in Sources */,
 				92DCCB4F1AB57E730030F433 /* Accumulate.swift in Sources */,
 				92DCCB541AB5BEF40030F433 /* SumOfMultiples.swift in Sources */,
@@ -413,6 +421,7 @@
 				920621471AC058170035212A /* Binary.swift in Sources */,
 				92FC5E9A1AACA58E00A0BA49 /* PhoneNumberTest.swift in Sources */,
 				92DCCB551AB5BF0A0030F433 /* SumOfMultiples.swift in Sources */,
+				925E36AA1AC3D1D600E823D7 /* AtbashTest.swift in Sources */,
 				928E58921AC1A760006DE4C9 /* RaindropsTest.swift in Sources */,
 				928BDE1A1ABDE4AB0027DDC8 /* Triangle.swift in Sources */,
 				92CF053D1ABB37BA00B0C431 /* GigasecondTest.swift in Sources */,
@@ -437,6 +446,7 @@
 				928E58951AC1A7FF006DE4C9 /* Raindrops.swift in Sources */,
 				92C8BB321AA7302400C448F0 /* WordCountTest.swift in Sources */,
 				9254789D1AB99D4C006119A8 /* TwelveDaysSong.swift in Sources */,
+				925E36AD1AC3D2B000E823D7 /* Atbash.swift in Sources */,
 				92FC5E9D1AACA74B00A0BA49 /* PhoneNumber.swift in Sources */,
 				929308071AC31345005AA291 /* ArrayKeepDiscard.swift in Sources */,
 				92DCCB501AB57ECD0030F433 /* Accumulate.swift in Sources */,
