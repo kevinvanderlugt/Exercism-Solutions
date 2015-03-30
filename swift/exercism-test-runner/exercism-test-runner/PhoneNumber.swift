@@ -31,11 +31,11 @@ struct PhoneNumber {
     }
 }
 
-extension String {
-    subscript (i: Int) -> Character {
-        return self[advance(self.startIndex, i)]
-    }
-    subscript (r: Range<Int>) -> String {
-        return substringWithRange(Range(start: advance(startIndex, r.startIndex), end: advance(startIndex, r.endIndex)))
-    }
-}
+//extension String {
+//    subscript (i: Int) -> Character {
+//        return self[advance(self.startIndex, i)]
+//    }
+//    subscript (r: Range<Int>) -> String {
+//        return substringWithRange(Range(start: advance(startIndex, r.startIndex), end: advance(startIndex, r.endIndex)))
+//    }
+//}

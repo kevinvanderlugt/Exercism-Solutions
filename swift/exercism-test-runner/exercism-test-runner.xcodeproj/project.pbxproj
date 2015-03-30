@@ -22,6 +22,9 @@
 		920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BD1AA87F3000CA652B /* EtlTest.swift */; };
 		920F65C01AA87F4F00CA652B /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BF1AA87F4F00CA652B /* ETL.swift */; };
 		920F65C11AA87F6F00CA652B /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BF1AA87F4F00CA652B /* ETL.swift */; };
+		921487EA1AC468C500A41FAD /* CryptoSquareTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921487E91AC468C500A41FAD /* CryptoSquareTest.swift */; };
+		921487EC1AC4692400A41FAD /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921487EB1AC4692400A41FAD /* Crypto.swift */; };
+		921487ED1AC4696800A41FAD /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921487EB1AC4692400A41FAD /* Crypto.swift */; };
 		922B73EB1AA9F37D00CCBEC7 /* AnagramTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B73EA1AA9F37D00CCBEC7 /* AnagramTest.swift */; };
 		922B73ED1AA9F39E00CCBEC7 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B73EC1AA9F39E00CCBEC7 /* Anagram.swift */; };
 		922B73EE1AA9F40100CCBEC7 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B73EC1AA9F39E00CCBEC7 /* Anagram.swift */; };
@@ -101,6 +104,8 @@
 		920A93691AB1C639004032A5 /* Robot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
 		920F65BD1AA87F3000CA652B /* EtlTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtlTest.swift; sourceTree = "<group>"; };
 		920F65BF1AA87F4F00CA652B /* ETL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETL.swift; sourceTree = "<group>"; };
+		921487E91AC468C500A41FAD /* CryptoSquareTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoSquareTest.swift; sourceTree = "<group>"; };
+		921487EB1AC4692400A41FAD /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		922B73EA1AA9F37D00CCBEC7 /* AnagramTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnagramTest.swift; sourceTree = "<group>"; };
 		922B73EC1AA9F39E00CCBEC7 /* Anagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
 		923ADD641A9A067500CF6D3F /* exercism-test-runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "exercism-test-runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -223,6 +228,7 @@
 				928E58931AC1A791006DE4C9 /* Raindrops.swift */,
 				929308051AC312CF005AA291 /* ArrayKeepDiscard.swift */,
 				925E36AB1AC3D28200E823D7 /* Atbash.swift */,
+				921487EB1AC4692400A41FAD /* Crypto.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				921487E91AC468C500A41FAD /* CryptoSquareTest.swift */,
 				925E36A91AC3D1D600E823D7 /* AtbashTest.swift */,
 				929308031AC31270005AA291 /* StrainTest.swift */,
 				928E58911AC1A760006DE4C9 /* RaindropsTest.swift */,
@@ -395,6 +402,7 @@
 				929308061AC312CF005AA291 /* ArrayKeepDiscard.swift in Sources */,
 				928BDE191ABDE1400027DDC8 /* Triangle.swift in Sources */,
 				92CF053F1ABB37FB00B0C431 /* Gigasecond.swift in Sources */,
+				921487EC1AC4692400A41FAD /* Crypto.swift in Sources */,
 				928E58941AC1A791006DE4C9 /* Raindrops.swift in Sources */,
 				92CF05451ABC1A9D00B0C431 /* Meetup.swift in Sources */,
 				925E36AC1AC3D28200E823D7 /* Atbash.swift in Sources */,
@@ -452,7 +460,9 @@
 				92DCCB501AB57ECD0030F433 /* Accumulate.swift in Sources */,
 				920621491AC0718F0035212A /* PrimeFactorsTest.swift in Sources */,
 				925478A31AB9A83A006119A8 /* SpaceAge.swift in Sources */,
+				921487EA1AC468C500A41FAD /* CryptoSquareTest.swift in Sources */,
 				928BDE171ABDE0F00027DDC8 /* TriangleTest.swift in Sources */,
+				921487ED1AC4696800A41FAD /* Crypto.swift in Sources */,
 				920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */,
 				922B73EE1AA9F40100CCBEC7 /* Anagram.swift in Sources */,
 				92DCCB4B1AB46E300030F433 /* Allergies.swift in Sources */,
