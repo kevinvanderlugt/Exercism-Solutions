@@ -82,6 +82,9 @@
 		92DCCB521AB5BEBA0030F433 /* SumOfMultiplesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCCB511AB5BEBA0030F433 /* SumOfMultiplesTest.swift */; };
 		92DCCB541AB5BEF40030F433 /* SumOfMultiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCCB531AB5BEF40030F433 /* SumOfMultiples.swift */; };
 		92DCCB551AB5BF0A0030F433 /* SumOfMultiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCCB531AB5BEF40030F433 /* SumOfMultiples.swift */; };
+		92EDFE801ACC19E100B82000 /* TrinaryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EDFE7F1ACC19E100B82000 /* TrinaryTest.swift */; };
+		92EDFE821ACC1A0F00B82000 /* Trinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EDFE811ACC1A0F00B82000 /* Trinary.swift */; };
+		92EDFE831ACC1F4200B82000 /* Trinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EDFE811ACC1A0F00B82000 /* Trinary.swift */; };
 		92FC5E9A1AACA58E00A0BA49 /* PhoneNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC5E991AACA58E00A0BA49 /* PhoneNumberTest.swift */; };
 		92FC5E9C1AACA72900A0BA49 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC5E9B1AACA72900A0BA49 /* PhoneNumber.swift */; };
 		92FC5E9D1AACA74B00A0BA49 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC5E9B1AACA72900A0BA49 /* PhoneNumber.swift */; };
@@ -150,6 +153,8 @@
 		92DCCB4E1AB57E730030F433 /* Accumulate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accumulate.swift; sourceTree = "<group>"; };
 		92DCCB511AB5BEBA0030F433 /* SumOfMultiplesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumOfMultiplesTest.swift; sourceTree = "<group>"; };
 		92DCCB531AB5BEF40030F433 /* SumOfMultiples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumOfMultiples.swift; sourceTree = "<group>"; };
+		92EDFE7F1ACC19E100B82000 /* TrinaryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrinaryTest.swift; sourceTree = "<group>"; };
+		92EDFE811ACC1A0F00B82000 /* Trinary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trinary.swift; sourceTree = "<group>"; };
 		92FC5E991AACA58E00A0BA49 /* PhoneNumberTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberTest.swift; sourceTree = "<group>"; };
 		92FC5E9B1AACA72900A0BA49 /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
 		92FCD36C1ABF0A4E00448136 /* ScrabbleScoreTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrabbleScoreTest.swift; sourceTree = "<group>"; };
@@ -229,6 +234,7 @@
 				929308051AC312CF005AA291 /* ArrayKeepDiscard.swift */,
 				925E36AB1AC3D28200E823D7 /* Atbash.swift */,
 				921487EB1AC4692400A41FAD /* Crypto.swift */,
+				92EDFE811ACC1A0F00B82000 /* Trinary.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -244,6 +250,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				92EDFE7F1ACC19E100B82000 /* TrinaryTest.swift */,
 				921487E91AC468C500A41FAD /* CryptoSquareTest.swift */,
 				925E36A91AC3D1D600E823D7 /* AtbashTest.swift */,
 				929308031AC31270005AA291 /* StrainTest.swift */,
@@ -392,6 +399,7 @@
 			files = (
 				922B73ED1AA9F39E00CCBEC7 /* Anagram.swift in Sources */,
 				920A936A1AB1C639004032A5 /* Robot.swift in Sources */,
+				92EDFE821ACC1A0F00B82000 /* Trinary.swift in Sources */,
 				92C8BB341AA730AE00C448F0 /* WordCount.swift in Sources */,
 				92FC5E9C1AACA72900A0BA49 /* PhoneNumber.swift in Sources */,
 				9206214B1AC071BA0035212A /* PrimeFactors.swift in Sources */,
@@ -430,6 +438,7 @@
 				92FC5E9A1AACA58E00A0BA49 /* PhoneNumberTest.swift in Sources */,
 				92DCCB551AB5BF0A0030F433 /* SumOfMultiples.swift in Sources */,
 				925E36AA1AC3D1D600E823D7 /* AtbashTest.swift in Sources */,
+				92EDFE831ACC1F4200B82000 /* Trinary.swift in Sources */,
 				928E58921AC1A760006DE4C9 /* RaindropsTest.swift in Sources */,
 				928BDE1A1ABDE4AB0027DDC8 /* Triangle.swift in Sources */,
 				92CF053D1ABB37BA00B0C431 /* GigasecondTest.swift in Sources */,
@@ -464,6 +473,7 @@
 				928BDE171ABDE0F00027DDC8 /* TriangleTest.swift in Sources */,
 				921487ED1AC4696800A41FAD /* Crypto.swift in Sources */,
 				920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */,
+				92EDFE801ACC19E100B82000 /* TrinaryTest.swift in Sources */,
 				922B73EE1AA9F40100CCBEC7 /* Anagram.swift in Sources */,
 				92DCCB4B1AB46E300030F433 /* Allergies.swift in Sources */,
 				92FCD3721ABF1CE300448136 /* RomanNumeralsTest.swift in Sources */,
