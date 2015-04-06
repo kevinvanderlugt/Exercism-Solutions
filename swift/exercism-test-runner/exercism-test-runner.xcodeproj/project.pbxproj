@@ -64,6 +64,9 @@
 		929308041AC31270005AA291 /* StrainTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929308031AC31270005AA291 /* StrainTest.swift */; };
 		929308061AC312CF005AA291 /* ArrayKeepDiscard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929308051AC312CF005AA291 /* ArrayKeepDiscard.swift */; };
 		929308071AC31345005AA291 /* ArrayKeepDiscard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929308051AC312CF005AA291 /* ArrayKeepDiscard.swift */; };
+		92B9DAD01AD2673D00B48ABA /* RnaTranscriptionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */; };
+		92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
+		92B9DAD31AD2678400B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
 		92C8BB321AA7302400C448F0 /* WordCountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8BB311AA7302400C448F0 /* WordCountTest.swift */; };
 		92C8BB341AA730AE00C448F0 /* WordCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8BB331AA730AE00C448F0 /* WordCount.swift */; };
 		92C8BB351AA730B300C448F0 /* WordCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8BB331AA730AE00C448F0 /* WordCount.swift */; };
@@ -141,6 +144,8 @@
 		928FD3511A9C7C7200BC1372 /* Hamming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamming.swift; sourceTree = "<group>"; };
 		929308031AC31270005AA291 /* StrainTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrainTest.swift; sourceTree = "<group>"; };
 		929308051AC312CF005AA291 /* ArrayKeepDiscard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayKeepDiscard.swift; sourceTree = "<group>"; };
+		92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RnaTranscriptionTest.swift; path = "../../rna-transcription/RnaTranscriptionTest.swift"; sourceTree = "<group>"; };
+		92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nucleotide.swift; sourceTree = "<group>"; };
 		92C8BB311AA7302400C448F0 /* WordCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCountTest.swift; sourceTree = "<group>"; };
 		92C8BB331AA730AE00C448F0 /* WordCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCount.swift; sourceTree = "<group>"; };
 		92CF053C1ABB37BA00B0C431 /* GigasecondTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GigasecondTest.swift; sourceTree = "<group>"; };
@@ -235,6 +240,7 @@
 				925E36AB1AC3D28200E823D7 /* Atbash.swift */,
 				921487EB1AC4692400A41FAD /* Crypto.swift */,
 				92EDFE811ACC1A0F00B82000 /* Trinary.swift */,
+				92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -250,6 +256,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */,
 				92EDFE7F1ACC19E100B82000 /* TrinaryTest.swift */,
 				921487E91AC468C500A41FAD /* CryptoSquareTest.swift */,
 				925E36A91AC3D1D600E823D7 /* AtbashTest.swift */,
@@ -416,6 +423,7 @@
 				925E36AC1AC3D28200E823D7 /* Atbash.swift in Sources */,
 				92DCCB4A1AB46DB90030F433 /* Allergies.swift in Sources */,
 				92DCCB4F1AB57E730030F433 /* Accumulate.swift in Sources */,
+				92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */,
 				92DCCB541AB5BEF40030F433 /* SumOfMultiples.swift in Sources */,
 				920A93651AB0A60B004032A5 /* GradeSchool.swift in Sources */,
 				928FD3521A9C7C7200BC1372 /* Hamming.swift in Sources */,
@@ -446,6 +454,7 @@
 				92FCD3751ABF1D9700448136 /* RomanNumerals.swift in Sources */,
 				92FCD36D1ABF0A4E00448136 /* ScrabbleScoreTest.swift in Sources */,
 				920621441AC057A60035212A /* BinaryTest.swift in Sources */,
+				92B9DAD31AD2678400B48ABA /* Nucleotide.swift in Sources */,
 				92DCCB4D1AB57D2D0030F433 /* AccumulateTest.swift in Sources */,
 				923ADD8D1A9A077100CF6D3F /* Bob.swift in Sources */,
 				92CF05421ABC18DD00B0C431 /* MeetupTest.swift in Sources */,
@@ -487,6 +496,7 @@
 				929308041AC31270005AA291 /* StrainTest.swift in Sources */,
 				923ADD801A9A067600CF6D3F /* exercism_test_runnerTests.swift in Sources */,
 				923ADD8A1A9A072900CF6D3F /* BobTest.swift in Sources */,
+				92B9DAD01AD2673D00B48ABA /* RnaTranscriptionTest.swift in Sources */,
 				925AC56E1AB3045D00064358 /* NumberClassifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
