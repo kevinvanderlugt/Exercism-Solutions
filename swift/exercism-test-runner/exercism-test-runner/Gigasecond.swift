@@ -19,6 +19,6 @@ struct Gigasecond {
         if let birthdate = dateFormatter.dateFromString(birthday) {
             return birthdate.dateByAddingTimeInterval(gigasecond)
         }
-        return NSDate.distantFuture() as NSDate
+        return NSDate.distantFuture() as! NSDate
     }
 }

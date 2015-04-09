@@ -14,7 +14,7 @@ struct Triangle {
     }
     
     private func isValid(sides: [Double]) -> Bool {
-        if(countElements(sides.filter{$0 <= 0}) == 0){
+        if(count(sides.filter{$0 <= 0}) == 0){
             let sortedSides = sorted(sides)
             if(sortedSides[0] + sortedSides[1] > sortedSides[2]) {
                 return true

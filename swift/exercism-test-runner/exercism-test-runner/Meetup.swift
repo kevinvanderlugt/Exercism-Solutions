@@ -15,7 +15,7 @@ struct Meetup {
     let calendar = NSCalendar.currentCalendar()
     let components = NSDateComponents()
 
-    private let invalidDate = NSDate.distantFuture() as NSDate
+    private let invalidDate = NSDate.distantFuture() as! NSDate
     
     init(year: Int, month: Int) {
         self.year = year

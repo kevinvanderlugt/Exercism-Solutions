@@ -14,6 +14,6 @@ struct Hamming {
             let (nuc1, nuc2) = pair
             return nuc1 != nuc2
         }
-        return countElements(unmatchedElements)
+        return count(unmatchedElements)
     }
 }

@@ -12,7 +12,7 @@ struct SumOfMultiples {
         let filteredArray = Array(0..<limit).filter {
             self.isMultiple($0, ofMultiples: inMultiples)
         }
-        let sum = filteredArray.reduce(0, +)
+        let sum = filteredArray.reduce(0, combine: +)
         return sum
     }
     

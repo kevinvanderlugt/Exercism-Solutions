@@ -23,7 +23,7 @@ struct PhoneNumber {
         let components = phoneNumber.componentsSeparatedByCharactersInSet(allowedCharacterSet.invertedSet)
         let sanitizedNumber = join("", components)
         
-        switch countElements(sanitizedNumber) {
+        switch count(sanitizedNumber) {
         case 10: return sanitizedNumber
         case 11: return sanitizedNumber[0] == "1" ? dropFirst(sanitizedNumber) : invalidNumberResponse
         default: return invalidNumberResponse

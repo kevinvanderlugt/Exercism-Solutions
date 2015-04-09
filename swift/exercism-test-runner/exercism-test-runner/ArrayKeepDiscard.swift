@@ -9,7 +9,7 @@
 import Foundation
 
 extension Array {
-    func keep(predicate: (T) -> Bool, comparator: Bool = true) -> Array {
+    func keep(comparator: Bool = true, predicate: (T) -> Bool) -> Array {
         var newArray: Array = []
         for object in self {
             if(predicate(object) == comparator) {
@@ -20,6 +20,6 @@ extension Array {
     }
     
     func discard(predicate: (T) -> Bool) -> Array {
-        return keep(predicate, comparator: false)
+        return keep(comparator: false, predicate: predicate)
     }
 }

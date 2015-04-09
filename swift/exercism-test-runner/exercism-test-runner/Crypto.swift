@@ -22,12 +22,12 @@ class Crypto {
     }
     
     var size: Int {
-        let squareRoot = ceil(sqrt(Double(countElements(normalizePlaintext))))
+        let squareRoot = ceil(sqrt(Double(count(normalizePlaintext))))
         return Int(squareRoot)
     }
     
     private var rows: Int {
-        let stringLength = countElements(normalizePlaintext)
+        let stringLength = count(normalizePlaintext)
         return Int(ceil(Double(stringLength)/Double(size)))
     }
     
@@ -45,7 +45,7 @@ class Crypto {
     var ciphertext: String {
         return reduce(0..<size, "", { (text, index) in
             return text + reduce(self.plaintextSegments, "", { (wholeSegment, segment) in
-                if(index < countElements(segment)) {
+                if(index < count(segment)) {
                     return wholeSegment + "\(segment[index])"
                 }
                 return wholeSegment
@@ -66,12 +66,12 @@ extension String {
     subscript (r: Range<Int>) -> String {
         return substringWithRange(Range(start: advance(startIndex, r.startIndex), end: advance(startIndex, r.endIndex)))
     }
-    func splitEveryCharacter(count: Int) -> [String] {
-        let stringLength = countElements(self)
+    func splitEveryCharacter(num: Int) -> [String] {
+        let stringLength = count(self)
         var wordArray = [String]()
-        for split in 0...stringLength/count {
-            let startIndex = advance(split*count, 0)
-            var endIndex = advance(split*count, count)
+        for split in 0...stringLength/num {
+            let startIndex = advance(split*num, 0)
+            var endIndex = advance(split*num, num)
             if(endIndex > stringLength) { endIndex = stringLength }
             wordArray.append(self[Range(start: startIndex, end: endIndex)])
         }
