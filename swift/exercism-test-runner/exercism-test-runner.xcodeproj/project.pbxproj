@@ -66,6 +66,8 @@
 		929308071AC31345005AA291 /* ArrayKeepDiscard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929308051AC312CF005AA291 /* ArrayKeepDiscard.swift */; };
 		9297799F1AD9041C00EE0E58 /* OctalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297799E1AD9041C00EE0E58 /* OctalTest.swift */; };
 		929779A21AD9056F00EE0E58 /* Octal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929779A01AD904A600EE0E58 /* Octal.swift */; };
+		929C2CB91AD93ABC007A7646 /* Luhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CB81AD93ABC007A7646 /* Luhn.swift */; };
+		929C2CBA1AD93AED007A7646 /* Luhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CB81AD93ABC007A7646 /* Luhn.swift */; };
 		92B9DAD01AD2673D00B48ABA /* RnaTranscriptionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */; };
 		92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
 		92B9DAD31AD2678400B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
@@ -90,6 +92,7 @@
 		92DCCB521AB5BEBA0030F433 /* SumOfMultiplesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCCB511AB5BEBA0030F433 /* SumOfMultiplesTest.swift */; };
 		92DCCB541AB5BEF40030F433 /* SumOfMultiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCCB531AB5BEF40030F433 /* SumOfMultiples.swift */; };
 		92DCCB551AB5BF0A0030F433 /* SumOfMultiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCCB531AB5BEF40030F433 /* SumOfMultiples.swift */; };
+		92FAB23F1AD93A3F00FB01A8 /* LuhnTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAB23E1AD93A3F00FB01A8 /* LuhnTest.swift */; };
 		92FC5E9A1AACA58E00A0BA49 /* PhoneNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC5E991AACA58E00A0BA49 /* PhoneNumberTest.swift */; };
 		92FC5E9C1AACA72900A0BA49 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC5E9B1AACA72900A0BA49 /* PhoneNumber.swift */; };
 		92FC5E9D1AACA74B00A0BA49 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC5E9B1AACA72900A0BA49 /* PhoneNumber.swift */; };
@@ -148,6 +151,7 @@
 		929308051AC312CF005AA291 /* ArrayKeepDiscard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayKeepDiscard.swift; sourceTree = "<group>"; };
 		9297799E1AD9041C00EE0E58 /* OctalTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OctalTest.swift; sourceTree = "<group>"; };
 		929779A01AD904A600EE0E58 /* Octal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octal.swift; sourceTree = "<group>"; };
+		929C2CB81AD93ABC007A7646 /* Luhn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Luhn.swift; sourceTree = "<group>"; };
 		92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RnaTranscriptionTest.swift; path = "../../rna-transcription/RnaTranscriptionTest.swift"; sourceTree = "<group>"; };
 		92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nucleotide.swift; sourceTree = "<group>"; };
 		92C8BB311AA7302400C448F0 /* WordCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCountTest.swift; sourceTree = "<group>"; };
@@ -166,6 +170,7 @@
 		92DCCB531AB5BEF40030F433 /* SumOfMultiples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumOfMultiples.swift; sourceTree = "<group>"; };
 		92EDFE7F1ACC19E100B82000 /* TrinaryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrinaryTest.swift; sourceTree = "<group>"; };
 		92EDFE811ACC1A0F00B82000 /* Trinary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trinary.swift; sourceTree = "<group>"; };
+		92FAB23E1AD93A3F00FB01A8 /* LuhnTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuhnTest.swift; sourceTree = "<group>"; };
 		92FC5E991AACA58E00A0BA49 /* PhoneNumberTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberTest.swift; sourceTree = "<group>"; };
 		92FC5E9B1AACA72900A0BA49 /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
 		92FCD36C1ABF0A4E00448136 /* ScrabbleScoreTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrabbleScoreTest.swift; sourceTree = "<group>"; };
@@ -249,6 +254,7 @@
 				92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */,
 				92D73EC71AD6C8E600FF25B7 /* Sieve.swift */,
 				929779A01AD904A600EE0E58 /* Octal.swift */,
+				929C2CB81AD93ABC007A7646 /* Luhn.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -264,6 +270,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				92FAB23E1AD93A3F00FB01A8 /* LuhnTest.swift */,
 				9297799E1AD9041C00EE0E58 /* OctalTest.swift */,
 				92D73EC51AD6C8C300FF25B7 /* SieveTest.swift */,
 				92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */,
@@ -435,6 +442,7 @@
 				92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */,
 				92DCCB541AB5BEF40030F433 /* SumOfMultiples.swift in Sources */,
 				920A93651AB0A60B004032A5 /* GradeSchool.swift in Sources */,
+				929C2CB91AD93ABC007A7646 /* Luhn.swift in Sources */,
 				92D73EC81AD6C8E600FF25B7 /* Sieve.swift in Sources */,
 				928FD3521A9C7C7200BC1372 /* Hamming.swift in Sources */,
 				923ADD6C1A9A067500CF6D3F /* ViewController.swift in Sources */,
@@ -455,6 +463,7 @@
 				920621471AC058170035212A /* Binary.swift in Sources */,
 				92FC5E9A1AACA58E00A0BA49 /* PhoneNumberTest.swift in Sources */,
 				92DCCB551AB5BF0A0030F433 /* SumOfMultiples.swift in Sources */,
+				92FAB23F1AD93A3F00FB01A8 /* LuhnTest.swift in Sources */,
 				925E36AA1AC3D1D600E823D7 /* AtbashTest.swift in Sources */,
 				928E58921AC1A760006DE4C9 /* RaindropsTest.swift in Sources */,
 				928BDE1A1ABDE4AB0027DDC8 /* Triangle.swift in Sources */,
@@ -500,6 +509,7 @@
 				929779A21AD9056F00EE0E58 /* Octal.swift in Sources */,
 				922B73EB1AA9F37D00CCBEC7 /* AnagramTest.swift in Sources */,
 				92DCCB521AB5BEBA0030F433 /* SumOfMultiplesTest.swift in Sources */,
+				929C2CBA1AD93AED007A7646 /* Luhn.swift in Sources */,
 				9242B7BA1AAB46AB00F0C7EC /* DNA.swift in Sources */,
 				9254789A1AB99CEE006119A8 /* TwelveDaysTest.swift in Sources */,
 				9206214C1AC071BE0035212A /* PrimeFactors.swift in Sources */,

@@ -36,6 +36,7 @@ struct Octal {
     }
     
     private var validOctal: Bool {
+        
         return filter(octalNumbers) { !contains(self.validNumbers, String($0)) }.isEmpty
     }
     
