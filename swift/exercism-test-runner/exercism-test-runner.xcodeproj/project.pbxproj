@@ -64,6 +64,8 @@
 		929308041AC31270005AA291 /* StrainTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929308031AC31270005AA291 /* StrainTest.swift */; };
 		929308061AC312CF005AA291 /* ArrayKeepDiscard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929308051AC312CF005AA291 /* ArrayKeepDiscard.swift */; };
 		929308071AC31345005AA291 /* ArrayKeepDiscard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929308051AC312CF005AA291 /* ArrayKeepDiscard.swift */; };
+		9297799F1AD9041C00EE0E58 /* OctalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297799E1AD9041C00EE0E58 /* OctalTest.swift */; };
+		929779A21AD9056F00EE0E58 /* Octal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929779A01AD904A600EE0E58 /* Octal.swift */; };
 		92B9DAD01AD2673D00B48ABA /* RnaTranscriptionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */; };
 		92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
 		92B9DAD31AD2678400B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
@@ -88,9 +90,6 @@
 		92DCCB521AB5BEBA0030F433 /* SumOfMultiplesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCCB511AB5BEBA0030F433 /* SumOfMultiplesTest.swift */; };
 		92DCCB541AB5BEF40030F433 /* SumOfMultiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCCB531AB5BEF40030F433 /* SumOfMultiples.swift */; };
 		92DCCB551AB5BF0A0030F433 /* SumOfMultiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCCB531AB5BEF40030F433 /* SumOfMultiples.swift */; };
-		92EDFE801ACC19E100B82000 /* TrinaryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EDFE7F1ACC19E100B82000 /* TrinaryTest.swift */; };
-		92EDFE821ACC1A0F00B82000 /* Trinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EDFE811ACC1A0F00B82000 /* Trinary.swift */; };
-		92EDFE831ACC1F4200B82000 /* Trinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EDFE811ACC1A0F00B82000 /* Trinary.swift */; };
 		92FC5E9A1AACA58E00A0BA49 /* PhoneNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC5E991AACA58E00A0BA49 /* PhoneNumberTest.swift */; };
 		92FC5E9C1AACA72900A0BA49 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC5E9B1AACA72900A0BA49 /* PhoneNumber.swift */; };
 		92FC5E9D1AACA74B00A0BA49 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC5E9B1AACA72900A0BA49 /* PhoneNumber.swift */; };
@@ -147,6 +146,8 @@
 		928FD3511A9C7C7200BC1372 /* Hamming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamming.swift; sourceTree = "<group>"; };
 		929308031AC31270005AA291 /* StrainTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrainTest.swift; sourceTree = "<group>"; };
 		929308051AC312CF005AA291 /* ArrayKeepDiscard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayKeepDiscard.swift; sourceTree = "<group>"; };
+		9297799E1AD9041C00EE0E58 /* OctalTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OctalTest.swift; sourceTree = "<group>"; };
+		929779A01AD904A600EE0E58 /* Octal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octal.swift; sourceTree = "<group>"; };
 		92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RnaTranscriptionTest.swift; path = "../../rna-transcription/RnaTranscriptionTest.swift"; sourceTree = "<group>"; };
 		92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nucleotide.swift; sourceTree = "<group>"; };
 		92C8BB311AA7302400C448F0 /* WordCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCountTest.swift; sourceTree = "<group>"; };
@@ -247,6 +248,7 @@
 				92EDFE811ACC1A0F00B82000 /* Trinary.swift */,
 				92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */,
 				92D73EC71AD6C8E600FF25B7 /* Sieve.swift */,
+				929779A01AD904A600EE0E58 /* Octal.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -262,6 +264,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				9297799E1AD9041C00EE0E58 /* OctalTest.swift */,
 				92D73EC51AD6C8C300FF25B7 /* SieveTest.swift */,
 				92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */,
 				92EDFE7F1ACC19E100B82000 /* TrinaryTest.swift */,
@@ -413,7 +416,6 @@
 			files = (
 				922B73ED1AA9F39E00CCBEC7 /* Anagram.swift in Sources */,
 				920A936A1AB1C639004032A5 /* Robot.swift in Sources */,
-				92EDFE821ACC1A0F00B82000 /* Trinary.swift in Sources */,
 				92C8BB341AA730AE00C448F0 /* WordCount.swift in Sources */,
 				92FC5E9C1AACA72900A0BA49 /* PhoneNumber.swift in Sources */,
 				9206214B1AC071BA0035212A /* PrimeFactors.swift in Sources */,
@@ -454,7 +456,6 @@
 				92FC5E9A1AACA58E00A0BA49 /* PhoneNumberTest.swift in Sources */,
 				92DCCB551AB5BF0A0030F433 /* SumOfMultiples.swift in Sources */,
 				925E36AA1AC3D1D600E823D7 /* AtbashTest.swift in Sources */,
-				92EDFE831ACC1F4200B82000 /* Trinary.swift in Sources */,
 				928E58921AC1A760006DE4C9 /* RaindropsTest.swift in Sources */,
 				928BDE1A1ABDE4AB0027DDC8 /* Triangle.swift in Sources */,
 				92CF053D1ABB37BA00B0C431 /* GigasecondTest.swift in Sources */,
@@ -470,6 +471,7 @@
 				92DCCB481AB46D460030F433 /* AllergiesTest.swift in Sources */,
 				92FCD3701ABF0AC800448136 /* Scrabble.swift in Sources */,
 				925AC56B1AB3036700064358 /* PerfectNumbersTest.swift in Sources */,
+				9297799F1AD9041C00EE0E58 /* OctalTest.swift in Sources */,
 				920A93661AB0A620004032A5 /* GradeSchool.swift in Sources */,
 				92CF05461ABC1A9D00B0C431 /* Meetup.swift in Sources */,
 				92CF05401ABB395B00B0C431 /* Gigasecond.swift in Sources */,
@@ -491,11 +493,11 @@
 				928BDE171ABDE0F00027DDC8 /* TriangleTest.swift in Sources */,
 				921487ED1AC4696800A41FAD /* Crypto.swift in Sources */,
 				920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */,
-				92EDFE801ACC19E100B82000 /* TrinaryTest.swift in Sources */,
 				922B73EE1AA9F40100CCBEC7 /* Anagram.swift in Sources */,
 				92DCCB4B1AB46E300030F433 /* Allergies.swift in Sources */,
 				92FCD3721ABF1CE300448136 /* RomanNumeralsTest.swift in Sources */,
 				920A93631AB0A54D004032A5 /* GradeSchoolTest.swift in Sources */,
+				929779A21AD9056F00EE0E58 /* Octal.swift in Sources */,
 				922B73EB1AA9F37D00CCBEC7 /* AnagramTest.swift in Sources */,
 				92DCCB521AB5BEBA0030F433 /* SumOfMultiplesTest.swift in Sources */,
 				9242B7BA1AAB46AB00F0C7EC /* DNA.swift in Sources */,

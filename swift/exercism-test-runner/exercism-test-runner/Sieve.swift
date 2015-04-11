@@ -17,6 +17,7 @@ struct Sieve {
         
         var primeNumbers = [Int]()
         var marked = [Int: Bool]()
+        
         for index in 2...limit {
             if(marked[index] == nil) {
                 let multiples = limit / index
