@@ -59,13 +59,13 @@ class Crypto {
 }
 
 extension String {
-    subscript (i: Int) -> Character {
-        return self[advance(self.startIndex, i)]
-    }
-    
-    subscript (r: Range<Int>) -> String {
-        return substringWithRange(Range(start: advance(startIndex, r.startIndex), end: advance(startIndex, r.endIndex)))
-    }
+//    subscript (i: Int) -> Character {
+//        return self[advance(self.startIndex, i)]
+//    }
+//    
+//    subscript (r: Range<Int>) -> String {
+//        return substringWithRange(Range(start: advance(startIndex, r.startIndex), end: advance(startIndex, r.endIndex)))
+//    }
     func splitEveryCharacter(num: Int) -> [String] {
         let stringLength = count(self)
         var wordArray = [String]()

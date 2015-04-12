@@ -68,6 +68,9 @@
 		929779A21AD9056F00EE0E58 /* Octal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929779A01AD904A600EE0E58 /* Octal.swift */; };
 		929C2CB91AD93ABC007A7646 /* Luhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CB81AD93ABC007A7646 /* Luhn.swift */; };
 		929C2CBA1AD93AED007A7646 /* Luhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CB81AD93ABC007A7646 /* Luhn.swift */; };
+		929C2CBC1AD997A7007A7646 /* SeriesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CBB1AD997A7007A7646 /* SeriesTest.swift */; };
+		929C2CBE1AD998B6007A7646 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CBD1AD998B6007A7646 /* Series.swift */; };
+		929C2CBF1AD99914007A7646 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CBD1AD998B6007A7646 /* Series.swift */; };
 		92B9DAD01AD2673D00B48ABA /* RnaTranscriptionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */; };
 		92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
 		92B9DAD31AD2678400B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
@@ -152,6 +155,8 @@
 		9297799E1AD9041C00EE0E58 /* OctalTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OctalTest.swift; sourceTree = "<group>"; };
 		929779A01AD904A600EE0E58 /* Octal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octal.swift; sourceTree = "<group>"; };
 		929C2CB81AD93ABC007A7646 /* Luhn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Luhn.swift; sourceTree = "<group>"; };
+		929C2CBB1AD997A7007A7646 /* SeriesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesTest.swift; sourceTree = "<group>"; };
+		929C2CBD1AD998B6007A7646 /* Series.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 		92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RnaTranscriptionTest.swift; path = "../../rna-transcription/RnaTranscriptionTest.swift"; sourceTree = "<group>"; };
 		92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nucleotide.swift; sourceTree = "<group>"; };
 		92C8BB311AA7302400C448F0 /* WordCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCountTest.swift; sourceTree = "<group>"; };
@@ -255,6 +260,7 @@
 				92D73EC71AD6C8E600FF25B7 /* Sieve.swift */,
 				929779A01AD904A600EE0E58 /* Octal.swift */,
 				929C2CB81AD93ABC007A7646 /* Luhn.swift */,
+				929C2CBD1AD998B6007A7646 /* Series.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -270,6 +276,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				929C2CBB1AD997A7007A7646 /* SeriesTest.swift */,
 				92FAB23E1AD93A3F00FB01A8 /* LuhnTest.swift */,
 				9297799E1AD9041C00EE0E58 /* OctalTest.swift */,
 				92D73EC51AD6C8C300FF25B7 /* SieveTest.swift */,
@@ -439,6 +446,7 @@
 				925E36AC1AC3D28200E823D7 /* Atbash.swift in Sources */,
 				92DCCB4A1AB46DB90030F433 /* Allergies.swift in Sources */,
 				92DCCB4F1AB57E730030F433 /* Accumulate.swift in Sources */,
+				929C2CBE1AD998B6007A7646 /* Series.swift in Sources */,
 				92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */,
 				92DCCB541AB5BEF40030F433 /* SumOfMultiples.swift in Sources */,
 				920A93651AB0A60B004032A5 /* GradeSchool.swift in Sources */,
@@ -465,8 +473,10 @@
 				92DCCB551AB5BF0A0030F433 /* SumOfMultiples.swift in Sources */,
 				92FAB23F1AD93A3F00FB01A8 /* LuhnTest.swift in Sources */,
 				925E36AA1AC3D1D600E823D7 /* AtbashTest.swift in Sources */,
+				929C2CBF1AD99914007A7646 /* Series.swift in Sources */,
 				928E58921AC1A760006DE4C9 /* RaindropsTest.swift in Sources */,
 				928BDE1A1ABDE4AB0027DDC8 /* Triangle.swift in Sources */,
+				929C2CBC1AD997A7007A7646 /* SeriesTest.swift in Sources */,
 				92CF053D1ABB37BA00B0C431 /* GigasecondTest.swift in Sources */,
 				920F65C11AA87F6F00CA652B /* ETL.swift in Sources */,
 				92FCD3751ABF1D9700448136 /* RomanNumerals.swift in Sources */,
