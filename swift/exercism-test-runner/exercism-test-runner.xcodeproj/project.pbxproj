@@ -71,6 +71,9 @@
 		929C2CBC1AD997A7007A7646 /* SeriesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CBB1AD997A7007A7646 /* SeriesTest.swift */; };
 		929C2CBE1AD998B6007A7646 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CBD1AD998B6007A7646 /* Series.swift */; };
 		929C2CBF1AD99914007A7646 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CBD1AD998B6007A7646 /* Series.swift */; };
+		929C2CC11ADA9C6D007A7646 /* PigLatinTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CC01ADA9C6D007A7646 /* PigLatinTest.swift */; };
+		929C2CC31ADA9CBE007A7646 /* PigLatin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CC21ADA9CBE007A7646 /* PigLatin.swift */; };
+		929C2CC41ADA9F05007A7646 /* PigLatin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CC21ADA9CBE007A7646 /* PigLatin.swift */; };
 		92B9DAD01AD2673D00B48ABA /* RnaTranscriptionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */; };
 		92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
 		92B9DAD31AD2678400B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
@@ -157,6 +160,8 @@
 		929C2CB81AD93ABC007A7646 /* Luhn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Luhn.swift; sourceTree = "<group>"; };
 		929C2CBB1AD997A7007A7646 /* SeriesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesTest.swift; sourceTree = "<group>"; };
 		929C2CBD1AD998B6007A7646 /* Series.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
+		929C2CC01ADA9C6D007A7646 /* PigLatinTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatinTest.swift; sourceTree = "<group>"; };
+		929C2CC21ADA9CBE007A7646 /* PigLatin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatin.swift; sourceTree = "<group>"; };
 		92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RnaTranscriptionTest.swift; path = "../../rna-transcription/RnaTranscriptionTest.swift"; sourceTree = "<group>"; };
 		92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nucleotide.swift; sourceTree = "<group>"; };
 		92C8BB311AA7302400C448F0 /* WordCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCountTest.swift; sourceTree = "<group>"; };
@@ -261,6 +266,7 @@
 				929779A01AD904A600EE0E58 /* Octal.swift */,
 				929C2CB81AD93ABC007A7646 /* Luhn.swift */,
 				929C2CBD1AD998B6007A7646 /* Series.swift */,
+				929C2CC21ADA9CBE007A7646 /* PigLatin.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				929C2CC01ADA9C6D007A7646 /* PigLatinTest.swift */,
 				929C2CBB1AD997A7007A7646 /* SeriesTest.swift */,
 				92FAB23E1AD93A3F00FB01A8 /* LuhnTest.swift */,
 				9297799E1AD9041C00EE0E58 /* OctalTest.swift */,
@@ -455,6 +462,7 @@
 				928FD3521A9C7C7200BC1372 /* Hamming.swift in Sources */,
 				923ADD6C1A9A067500CF6D3F /* ViewController.swift in Sources */,
 				923ADD6A1A9A067500CF6D3F /* AppDelegate.swift in Sources */,
+				929C2CC31ADA9CBE007A7646 /* PigLatin.swift in Sources */,
 				92FCD36F1ABF0AB400448136 /* Scrabble.swift in Sources */,
 				9242B7B91AAB44EC00F0C7EC /* DNA.swift in Sources */,
 				920621461AC057D70035212A /* Binary.swift in Sources */,
@@ -491,6 +499,7 @@
 				92FCD3701ABF0AC800448136 /* Scrabble.swift in Sources */,
 				925AC56B1AB3036700064358 /* PerfectNumbersTest.swift in Sources */,
 				9297799F1AD9041C00EE0E58 /* OctalTest.swift in Sources */,
+				929C2CC41ADA9F05007A7646 /* PigLatin.swift in Sources */,
 				920A93661AB0A620004032A5 /* GradeSchool.swift in Sources */,
 				92CF05461ABC1A9D00B0C431 /* Meetup.swift in Sources */,
 				92CF05401ABB395B00B0C431 /* Gigasecond.swift in Sources */,
@@ -504,6 +513,7 @@
 				9254789D1AB99D4C006119A8 /* TwelveDaysSong.swift in Sources */,
 				925E36AD1AC3D2B000E823D7 /* Atbash.swift in Sources */,
 				92FC5E9D1AACA74B00A0BA49 /* PhoneNumber.swift in Sources */,
+				929C2CC11ADA9C6D007A7646 /* PigLatinTest.swift in Sources */,
 				929308071AC31345005AA291 /* ArrayKeepDiscard.swift in Sources */,
 				92DCCB501AB57ECD0030F433 /* Accumulate.swift in Sources */,
 				920621491AC0718F0035212A /* PrimeFactorsTest.swift in Sources */,
