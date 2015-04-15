@@ -74,6 +74,9 @@
 		929C2CC11ADA9C6D007A7646 /* PigLatinTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CC01ADA9C6D007A7646 /* PigLatinTest.swift */; };
 		929C2CC31ADA9CBE007A7646 /* PigLatin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CC21ADA9CBE007A7646 /* PigLatin.swift */; };
 		929C2CC41ADA9F05007A7646 /* PigLatin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C2CC21ADA9CBE007A7646 /* PigLatin.swift */; };
+		92A1A1371ADE527E00ABCACD /* PythagoreanTripletTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A1A1361ADE527E00ABCACD /* PythagoreanTripletTest.swift */; };
+		92A1A1391ADE537200ABCACD /* Pythagorean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A1A1381ADE537200ABCACD /* Pythagorean.swift */; };
+		92A1A13A1ADE537A00ABCACD /* Pythagorean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A1A1381ADE537200ABCACD /* Pythagorean.swift */; };
 		92B9DAD01AD2673D00B48ABA /* RnaTranscriptionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */; };
 		92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
 		92B9DAD31AD2678400B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
@@ -162,6 +165,8 @@
 		929C2CBD1AD998B6007A7646 /* Series.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 		929C2CC01ADA9C6D007A7646 /* PigLatinTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatinTest.swift; sourceTree = "<group>"; };
 		929C2CC21ADA9CBE007A7646 /* PigLatin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatin.swift; sourceTree = "<group>"; };
+		92A1A1361ADE527E00ABCACD /* PythagoreanTripletTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PythagoreanTripletTest.swift; path = "../../pythagorean-triplet/PythagoreanTripletTest.swift"; sourceTree = "<group>"; };
+		92A1A1381ADE537200ABCACD /* Pythagorean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pythagorean.swift; sourceTree = "<group>"; };
 		92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RnaTranscriptionTest.swift; path = "../../rna-transcription/RnaTranscriptionTest.swift"; sourceTree = "<group>"; };
 		92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nucleotide.swift; sourceTree = "<group>"; };
 		92C8BB311AA7302400C448F0 /* WordCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCountTest.swift; sourceTree = "<group>"; };
@@ -267,6 +272,7 @@
 				929C2CB81AD93ABC007A7646 /* Luhn.swift */,
 				929C2CBD1AD998B6007A7646 /* Series.swift */,
 				929C2CC21ADA9CBE007A7646 /* PigLatin.swift */,
+				92A1A1381ADE537200ABCACD /* Pythagorean.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -282,6 +288,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				92A1A1361ADE527E00ABCACD /* PythagoreanTripletTest.swift */,
 				929C2CC01ADA9C6D007A7646 /* PigLatinTest.swift */,
 				929C2CBB1AD997A7007A7646 /* SeriesTest.swift */,
 				92FAB23E1AD93A3F00FB01A8 /* LuhnTest.swift */,
@@ -457,6 +464,7 @@
 				92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */,
 				92DCCB541AB5BEF40030F433 /* SumOfMultiples.swift in Sources */,
 				920A93651AB0A60B004032A5 /* GradeSchool.swift in Sources */,
+				92A1A1391ADE537200ABCACD /* Pythagorean.swift in Sources */,
 				929C2CB91AD93ABC007A7646 /* Luhn.swift in Sources */,
 				92D73EC81AD6C8E600FF25B7 /* Sieve.swift in Sources */,
 				928FD3521A9C7C7200BC1372 /* Hamming.swift in Sources */,
@@ -477,6 +485,7 @@
 			files = (
 				928FD3531A9C7C9000BC1372 /* Hamming.swift in Sources */,
 				920621471AC058170035212A /* Binary.swift in Sources */,
+				92A1A13A1ADE537A00ABCACD /* Pythagorean.swift in Sources */,
 				92FC5E9A1AACA58E00A0BA49 /* PhoneNumberTest.swift in Sources */,
 				92DCCB551AB5BF0A0030F433 /* SumOfMultiples.swift in Sources */,
 				92FAB23F1AD93A3F00FB01A8 /* LuhnTest.swift in Sources */,
@@ -532,6 +541,7 @@
 				929C2CBA1AD93AED007A7646 /* Luhn.swift in Sources */,
 				9242B7BA1AAB46AB00F0C7EC /* DNA.swift in Sources */,
 				9254789A1AB99CEE006119A8 /* TwelveDaysTest.swift in Sources */,
+				92A1A1371ADE527E00ABCACD /* PythagoreanTripletTest.swift in Sources */,
 				9206214C1AC071BE0035212A /* PrimeFactors.swift in Sources */,
 				920A93681AB1C61D004032A5 /* RobotNameTest.swift in Sources */,
 				929308041AC31270005AA291 /* StrainTest.swift in Sources */,

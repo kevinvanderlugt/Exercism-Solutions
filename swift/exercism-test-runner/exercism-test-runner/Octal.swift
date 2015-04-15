@@ -10,9 +10,9 @@
 import Foundation
 
 infix operator ** { }
-func ** (radix: Int, power: Int) -> Int {
-    return Int(pow(Double(radix), Double(power)))
-}
+//func ** (radix: Int, power: Int) -> Int {
+//    return Int(pow(Double(radix), Double(power)))
+//}
 
 struct Octal {
     private let base = 8
