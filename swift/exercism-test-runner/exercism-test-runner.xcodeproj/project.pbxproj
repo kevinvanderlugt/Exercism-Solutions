@@ -52,6 +52,9 @@
 		925E36AA1AC3D1D600E823D7 /* AtbashTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925E36A91AC3D1D600E823D7 /* AtbashTest.swift */; };
 		925E36AC1AC3D28200E823D7 /* Atbash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925E36AB1AC3D28200E823D7 /* Atbash.swift */; };
 		925E36AD1AC3D2B000E823D7 /* Atbash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925E36AB1AC3D28200E823D7 /* Atbash.swift */; };
+		926A632A1AE13C6400090FF5 /* DifferenceOfSquaresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926A63291AE13C6400090FF5 /* DifferenceOfSquaresTests.swift */; };
+		926A632C1AE13C7C00090FF5 /* Squares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926A632B1AE13C7C00090FF5 /* Squares.swift */; };
+		926A632D1AE13D5400090FF5 /* Squares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926A632B1AE13C7C00090FF5 /* Squares.swift */; };
 		928BDE171ABDE0F00027DDC8 /* TriangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928BDE161ABDE0F00027DDC8 /* TriangleTest.swift */; };
 		928BDE191ABDE1400027DDC8 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928BDE181ABDE1400027DDC8 /* Triangle.swift */; };
 		928BDE1A1ABDE4AB0027DDC8 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928BDE181ABDE1400027DDC8 /* Triangle.swift */; };
@@ -150,6 +153,8 @@
 		925AC56C1AB3042700064358 /* NumberClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberClassifier.swift; sourceTree = "<group>"; };
 		925E36A91AC3D1D600E823D7 /* AtbashTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtbashTest.swift; sourceTree = "<group>"; };
 		925E36AB1AC3D28200E823D7 /* Atbash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atbash.swift; sourceTree = "<group>"; };
+		926A63291AE13C6400090FF5 /* DifferenceOfSquaresTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DifferenceOfSquaresTests.swift; path = "../../difference-of-squares/DifferenceOfSquaresTests.swift"; sourceTree = "<group>"; };
+		926A632B1AE13C7C00090FF5 /* Squares.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Squares.swift; sourceTree = "<group>"; };
 		928BDE161ABDE0F00027DDC8 /* TriangleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleTest.swift; sourceTree = "<group>"; };
 		928BDE181ABDE1400027DDC8 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		928C31631A9C7B9F008F1A06 /* HammingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HammingTest.swift; sourceTree = "<group>"; };
@@ -273,6 +278,7 @@
 				929C2CBD1AD998B6007A7646 /* Series.swift */,
 				929C2CC21ADA9CBE007A7646 /* PigLatin.swift */,
 				92A1A1381ADE537200ABCACD /* Pythagorean.swift */,
+				926A632B1AE13C7C00090FF5 /* Squares.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -288,6 +294,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				926A63291AE13C6400090FF5 /* DifferenceOfSquaresTests.swift */,
 				92A1A1361ADE527E00ABCACD /* PythagoreanTripletTest.swift */,
 				929C2CC01ADA9C6D007A7646 /* PigLatinTest.swift */,
 				929C2CBB1AD997A7007A7646 /* SeriesTest.swift */,
@@ -469,6 +476,7 @@
 				92D73EC81AD6C8E600FF25B7 /* Sieve.swift in Sources */,
 				928FD3521A9C7C7200BC1372 /* Hamming.swift in Sources */,
 				923ADD6C1A9A067500CF6D3F /* ViewController.swift in Sources */,
+				926A632C1AE13C7C00090FF5 /* Squares.swift in Sources */,
 				923ADD6A1A9A067500CF6D3F /* AppDelegate.swift in Sources */,
 				929C2CC31ADA9CBE007A7646 /* PigLatin.swift in Sources */,
 				92FCD36F1ABF0AB400448136 /* Scrabble.swift in Sources */,
@@ -501,6 +509,7 @@
 				92D73EC91AD6C99900FF25B7 /* Sieve.swift in Sources */,
 				920621441AC057A60035212A /* BinaryTest.swift in Sources */,
 				92B9DAD31AD2678400B48ABA /* Nucleotide.swift in Sources */,
+				926A632D1AE13D5400090FF5 /* Squares.swift in Sources */,
 				92DCCB4D1AB57D2D0030F433 /* AccumulateTest.swift in Sources */,
 				923ADD8D1A9A077100CF6D3F /* Bob.swift in Sources */,
 				92CF05421ABC18DD00B0C431 /* MeetupTest.swift in Sources */,
@@ -543,6 +552,7 @@
 				9254789A1AB99CEE006119A8 /* TwelveDaysTest.swift in Sources */,
 				92A1A1371ADE527E00ABCACD /* PythagoreanTripletTest.swift in Sources */,
 				9206214C1AC071BE0035212A /* PrimeFactors.swift in Sources */,
+				926A632A1AE13C6400090FF5 /* DifferenceOfSquaresTests.swift in Sources */,
 				920A93681AB1C61D004032A5 /* RobotNameTest.swift in Sources */,
 				929308041AC31270005AA291 /* StrainTest.swift in Sources */,
 				923ADD801A9A067600CF6D3F /* exercism_test_runnerTests.swift in Sources */,
