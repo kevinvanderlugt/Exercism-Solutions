@@ -28,6 +28,9 @@
 		922B73EB1AA9F37D00CCBEC7 /* AnagramTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B73EA1AA9F37D00CCBEC7 /* AnagramTest.swift */; };
 		922B73ED1AA9F39E00CCBEC7 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B73EC1AA9F39E00CCBEC7 /* Anagram.swift */; };
 		922B73EE1AA9F40100CCBEC7 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B73EC1AA9F39E00CCBEC7 /* Anagram.swift */; };
+		92350FCA1AE2722E00643581 /* SecretHandshakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92350FC91AE2722E00643581 /* SecretHandshakeTests.swift */; };
+		92350FCC1AE2726B00643581 /* SecretHandshake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92350FCB1AE2726B00643581 /* SecretHandshake.swift */; };
+		92350FCD1AE2729500643581 /* SecretHandshake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92350FCB1AE2726B00643581 /* SecretHandshake.swift */; };
 		923ADD6A1A9A067500CF6D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923ADD691A9A067500CF6D3F /* AppDelegate.swift */; };
 		923ADD6C1A9A067500CF6D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923ADD6B1A9A067500CF6D3F /* ViewController.swift */; };
 		923ADD6F1A9A067500CF6D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923ADD6D1A9A067500CF6D3F /* Main.storyboard */; };
@@ -131,6 +134,8 @@
 		921487EB1AC4692400A41FAD /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		922B73EA1AA9F37D00CCBEC7 /* AnagramTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnagramTest.swift; sourceTree = "<group>"; };
 		922B73EC1AA9F39E00CCBEC7 /* Anagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
+		92350FC91AE2722E00643581 /* SecretHandshakeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecretHandshakeTests.swift; path = "../../secret-handshake/SecretHandshakeTests.swift"; sourceTree = "<group>"; };
+		92350FCB1AE2726B00643581 /* SecretHandshake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretHandshake.swift; sourceTree = "<group>"; };
 		923ADD641A9A067500CF6D3F /* exercism-test-runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "exercism-test-runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		923ADD681A9A067500CF6D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		923ADD691A9A067500CF6D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -279,6 +284,7 @@
 				929C2CC21ADA9CBE007A7646 /* PigLatin.swift */,
 				92A1A1381ADE537200ABCACD /* Pythagorean.swift */,
 				926A632B1AE13C7C00090FF5 /* Squares.swift */,
+				92350FCB1AE2726B00643581 /* SecretHandshake.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -294,6 +300,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				92350FC91AE2722E00643581 /* SecretHandshakeTests.swift */,
 				926A63291AE13C6400090FF5 /* DifferenceOfSquaresTests.swift */,
 				92A1A1361ADE527E00ABCACD /* PythagoreanTripletTest.swift */,
 				929C2CC01ADA9C6D007A7646 /* PigLatinTest.swift */,
@@ -478,6 +485,7 @@
 				923ADD6C1A9A067500CF6D3F /* ViewController.swift in Sources */,
 				926A632C1AE13C7C00090FF5 /* Squares.swift in Sources */,
 				923ADD6A1A9A067500CF6D3F /* AppDelegate.swift in Sources */,
+				92350FCC1AE2726B00643581 /* SecretHandshake.swift in Sources */,
 				929C2CC31ADA9CBE007A7646 /* PigLatin.swift in Sources */,
 				92FCD36F1ABF0AB400448136 /* Scrabble.swift in Sources */,
 				9242B7B91AAB44EC00F0C7EC /* DNA.swift in Sources */,
@@ -553,11 +561,13 @@
 				92A1A1371ADE527E00ABCACD /* PythagoreanTripletTest.swift in Sources */,
 				9206214C1AC071BE0035212A /* PrimeFactors.swift in Sources */,
 				926A632A1AE13C6400090FF5 /* DifferenceOfSquaresTests.swift in Sources */,
+				92350FCD1AE2729500643581 /* SecretHandshake.swift in Sources */,
 				920A93681AB1C61D004032A5 /* RobotNameTest.swift in Sources */,
 				929308041AC31270005AA291 /* StrainTest.swift in Sources */,
 				923ADD801A9A067600CF6D3F /* exercism_test_runnerTests.swift in Sources */,
 				92D73EC61AD6C8C300FF25B7 /* SieveTest.swift in Sources */,
 				923ADD8A1A9A072900CF6D3F /* BobTest.swift in Sources */,
+				92350FCA1AE2722E00643581 /* SecretHandshakeTests.swift in Sources */,
 				92B9DAD01AD2673D00B48ABA /* RnaTranscriptionTest.swift in Sources */,
 				925AC56E1AB3045D00064358 /* NumberClassifier.swift in Sources */,
 			);
