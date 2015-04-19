@@ -83,6 +83,9 @@
 		92A1A1371ADE527E00ABCACD /* PythagoreanTripletTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A1A1361ADE527E00ABCACD /* PythagoreanTripletTest.swift */; };
 		92A1A1391ADE537200ABCACD /* Pythagorean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A1A1381ADE537200ABCACD /* Pythagorean.swift */; };
 		92A1A13A1ADE537A00ABCACD /* Pythagorean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A1A1381ADE537200ABCACD /* Pythagorean.swift */; };
+		92ADB16F1AE38605000258FD /* ClockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ADB16E1AE38605000258FD /* ClockTest.swift */; };
+		92ADB1711AE38656000258FD /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ADB1701AE38656000258FD /* Clock.swift */; };
+		92ADB1721AE386BC000258FD /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ADB1701AE38656000258FD /* Clock.swift */; };
 		92B9DAD01AD2673D00B48ABA /* RnaTranscriptionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */; };
 		92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
 		92B9DAD31AD2678400B48ABA /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */; };
@@ -177,6 +180,8 @@
 		929C2CC21ADA9CBE007A7646 /* PigLatin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatin.swift; sourceTree = "<group>"; };
 		92A1A1361ADE527E00ABCACD /* PythagoreanTripletTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PythagoreanTripletTest.swift; path = "../../pythagorean-triplet/PythagoreanTripletTest.swift"; sourceTree = "<group>"; };
 		92A1A1381ADE537200ABCACD /* Pythagorean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pythagorean.swift; sourceTree = "<group>"; };
+		92ADB16E1AE38605000258FD /* ClockTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClockTest.swift; path = ../../clock/ClockTest.swift; sourceTree = "<group>"; };
+		92ADB1701AE38656000258FD /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		92B9DACF1AD2673D00B48ABA /* RnaTranscriptionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RnaTranscriptionTest.swift; path = "../../rna-transcription/RnaTranscriptionTest.swift"; sourceTree = "<group>"; };
 		92B9DAD11AD2677F00B48ABA /* Nucleotide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nucleotide.swift; sourceTree = "<group>"; };
 		92C8BB311AA7302400C448F0 /* WordCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCountTest.swift; sourceTree = "<group>"; };
@@ -285,6 +290,7 @@
 				92A1A1381ADE537200ABCACD /* Pythagorean.swift */,
 				926A632B1AE13C7C00090FF5 /* Squares.swift */,
 				92350FCB1AE2726B00643581 /* SecretHandshake.swift */,
+				92ADB1701AE38656000258FD /* Clock.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -300,6 +306,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				92ADB16E1AE38605000258FD /* ClockTest.swift */,
 				92350FC91AE2722E00643581 /* SecretHandshakeTests.swift */,
 				926A63291AE13C6400090FF5 /* DifferenceOfSquaresTests.swift */,
 				92A1A1361ADE527E00ABCACD /* PythagoreanTripletTest.swift */,
@@ -458,6 +465,7 @@
 			files = (
 				922B73ED1AA9F39E00CCBEC7 /* Anagram.swift in Sources */,
 				920A936A1AB1C639004032A5 /* Robot.swift in Sources */,
+				92ADB1711AE38656000258FD /* Clock.swift in Sources */,
 				92C8BB341AA730AE00C448F0 /* WordCount.swift in Sources */,
 				92FC5E9C1AACA72900A0BA49 /* PhoneNumber.swift in Sources */,
 				9206214B1AC071BA0035212A /* PrimeFactors.swift in Sources */,
@@ -544,7 +552,9 @@
 				92DCCB501AB57ECD0030F433 /* Accumulate.swift in Sources */,
 				920621491AC0718F0035212A /* PrimeFactorsTest.swift in Sources */,
 				925478A31AB9A83A006119A8 /* SpaceAge.swift in Sources */,
+				92ADB1721AE386BC000258FD /* Clock.swift in Sources */,
 				921487EA1AC468C500A41FAD /* CryptoSquareTest.swift in Sources */,
+				92ADB16F1AE38605000258FD /* ClockTest.swift in Sources */,
 				928BDE171ABDE0F00027DDC8 /* TriangleTest.swift in Sources */,
 				921487ED1AC4696800A41FAD /* Crypto.swift in Sources */,
 				920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */,
