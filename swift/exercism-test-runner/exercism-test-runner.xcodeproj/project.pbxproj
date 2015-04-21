@@ -25,6 +25,9 @@
 		921487EA1AC468C500A41FAD /* CryptoSquareTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921487E91AC468C500A41FAD /* CryptoSquareTest.swift */; };
 		921487EC1AC4692400A41FAD /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921487EB1AC4692400A41FAD /* Crypto.swift */; };
 		921487ED1AC4696800A41FAD /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921487EB1AC4692400A41FAD /* Crypto.swift */; };
+		9220D0191AE694DB00805E0A /* SimpleLinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220D0181AE694DB00805E0A /* SimpleLinkedListTest.swift */; };
+		9220D01B1AE6955400805E0A /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220D01A1AE6955400805E0A /* Element.swift */; };
+		9220D01C1AE6959C00805E0A /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220D01A1AE6955400805E0A /* Element.swift */; };
 		922B73EB1AA9F37D00CCBEC7 /* AnagramTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B73EA1AA9F37D00CCBEC7 /* AnagramTest.swift */; };
 		922B73ED1AA9F39E00CCBEC7 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B73EC1AA9F39E00CCBEC7 /* Anagram.swift */; };
 		922B73EE1AA9F40100CCBEC7 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B73EC1AA9F39E00CCBEC7 /* Anagram.swift */; };
@@ -135,6 +138,8 @@
 		920F65BF1AA87F4F00CA652B /* ETL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETL.swift; sourceTree = "<group>"; };
 		921487E91AC468C500A41FAD /* CryptoSquareTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoSquareTest.swift; sourceTree = "<group>"; };
 		921487EB1AC4692400A41FAD /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		9220D0181AE694DB00805E0A /* SimpleLinkedListTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleLinkedListTest.swift; path = "../../simple-linked-list/SimpleLinkedListTest.swift"; sourceTree = "<group>"; };
+		9220D01A1AE6955400805E0A /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
 		922B73EA1AA9F37D00CCBEC7 /* AnagramTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnagramTest.swift; sourceTree = "<group>"; };
 		922B73EC1AA9F39E00CCBEC7 /* Anagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
 		92350FC91AE2722E00643581 /* SecretHandshakeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecretHandshakeTests.swift; path = "../../secret-handshake/SecretHandshakeTests.swift"; sourceTree = "<group>"; };
@@ -291,6 +296,7 @@
 				926A632B1AE13C7C00090FF5 /* Squares.swift */,
 				92350FCB1AE2726B00643581 /* SecretHandshake.swift */,
 				92ADB1701AE38656000258FD /* Clock.swift */,
+				9220D01A1AE6955400805E0A /* Element.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -306,6 +312,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				9220D0181AE694DB00805E0A /* SimpleLinkedListTest.swift */,
 				92ADB16E1AE38605000258FD /* ClockTest.swift */,
 				92350FC91AE2722E00643581 /* SecretHandshakeTests.swift */,
 				926A63291AE13C6400090FF5 /* DifferenceOfSquaresTests.swift */,
@@ -481,6 +488,7 @@
 				92CF05451ABC1A9D00B0C431 /* Meetup.swift in Sources */,
 				925E36AC1AC3D28200E823D7 /* Atbash.swift in Sources */,
 				92DCCB4A1AB46DB90030F433 /* Allergies.swift in Sources */,
+				9220D01B1AE6955400805E0A /* Element.swift in Sources */,
 				92DCCB4F1AB57E730030F433 /* Accumulate.swift in Sources */,
 				929C2CBE1AD998B6007A7646 /* Series.swift in Sources */,
 				92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */,
@@ -521,6 +529,7 @@
 				92CF053D1ABB37BA00B0C431 /* GigasecondTest.swift in Sources */,
 				920F65C11AA87F6F00CA652B /* ETL.swift in Sources */,
 				92FCD3751ABF1D9700448136 /* RomanNumerals.swift in Sources */,
+				9220D01C1AE6959C00805E0A /* Element.swift in Sources */,
 				92FCD36D1ABF0A4E00448136 /* ScrabbleScoreTest.swift in Sources */,
 				92D73EC91AD6C99900FF25B7 /* Sieve.swift in Sources */,
 				920621441AC057A60035212A /* BinaryTest.swift in Sources */,
@@ -565,6 +574,7 @@
 				929779A21AD9056F00EE0E58 /* Octal.swift in Sources */,
 				922B73EB1AA9F37D00CCBEC7 /* AnagramTest.swift in Sources */,
 				92DCCB521AB5BEBA0030F433 /* SumOfMultiplesTest.swift in Sources */,
+				9220D0191AE694DB00805E0A /* SimpleLinkedListTest.swift in Sources */,
 				929C2CBA1AD93AED007A7646 /* Luhn.swift in Sources */,
 				9242B7BA1AAB46AB00F0C7EC /* DNA.swift in Sources */,
 				9254789A1AB99CEE006119A8 /* TwelveDaysTest.swift in Sources */,
