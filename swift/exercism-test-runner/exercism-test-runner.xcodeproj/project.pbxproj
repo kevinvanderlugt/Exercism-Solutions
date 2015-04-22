@@ -19,6 +19,9 @@
 		920A93681AB1C61D004032A5 /* RobotNameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93671AB1C61D004032A5 /* RobotNameTest.swift */; };
 		920A936A1AB1C639004032A5 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93691AB1C639004032A5 /* Robot.swift */; };
 		920A936B1AB1C68F004032A5 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A93691AB1C639004032A5 /* Robot.swift */; };
+		920B56A11AE7494B0044760E /* LinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B56A01AE7494B0044760E /* LinkedListTest.swift */; };
+		920B56A31AE74A9C0044760E /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B56A21AE74A9C0044760E /* LinkedList.swift */; };
+		920B56A41AE74EE50044760E /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B56A21AE74A9C0044760E /* LinkedList.swift */; };
 		920F65BE1AA87F3000CA652B /* EtlTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BD1AA87F3000CA652B /* EtlTest.swift */; };
 		920F65C01AA87F4F00CA652B /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BF1AA87F4F00CA652B /* ETL.swift */; };
 		920F65C11AA87F6F00CA652B /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F65BF1AA87F4F00CA652B /* ETL.swift */; };
@@ -134,6 +137,8 @@
 		920A93641AB0A60B004032A5 /* GradeSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchool.swift; sourceTree = "<group>"; };
 		920A93671AB1C61D004032A5 /* RobotNameTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotNameTest.swift; sourceTree = "<group>"; };
 		920A93691AB1C639004032A5 /* Robot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		920B56A01AE7494B0044760E /* LinkedListTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkedListTest.swift; path = "../../linked-list/LinkedListTest.swift"; sourceTree = "<group>"; };
+		920B56A21AE74A9C0044760E /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		920F65BD1AA87F3000CA652B /* EtlTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtlTest.swift; sourceTree = "<group>"; };
 		920F65BF1AA87F4F00CA652B /* ETL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETL.swift; sourceTree = "<group>"; };
 		921487E91AC468C500A41FAD /* CryptoSquareTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoSquareTest.swift; sourceTree = "<group>"; };
@@ -297,6 +302,7 @@
 				92350FCB1AE2726B00643581 /* SecretHandshake.swift */,
 				92ADB1701AE38656000258FD /* Clock.swift */,
 				9220D01A1AE6955400805E0A /* Element.swift */,
+				920B56A21AE74A9C0044760E /* LinkedList.swift */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -312,6 +318,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				920B56A01AE7494B0044760E /* LinkedListTest.swift */,
 				9220D0181AE694DB00805E0A /* SimpleLinkedListTest.swift */,
 				92ADB16E1AE38605000258FD /* ClockTest.swift */,
 				92350FC91AE2722E00643581 /* SecretHandshakeTests.swift */,
@@ -494,6 +501,7 @@
 				92B9DAD21AD2677F00B48ABA /* Nucleotide.swift in Sources */,
 				92DCCB541AB5BEF40030F433 /* SumOfMultiples.swift in Sources */,
 				920A93651AB0A60B004032A5 /* GradeSchool.swift in Sources */,
+				920B56A31AE74A9C0044760E /* LinkedList.swift in Sources */,
 				92A1A1391ADE537200ABCACD /* Pythagorean.swift in Sources */,
 				929C2CB91AD93ABC007A7646 /* Luhn.swift in Sources */,
 				92D73EC81AD6C8E600FF25B7 /* Sieve.swift in Sources */,
@@ -535,6 +543,7 @@
 				920621441AC057A60035212A /* BinaryTest.swift in Sources */,
 				92B9DAD31AD2678400B48ABA /* Nucleotide.swift in Sources */,
 				926A632D1AE13D5400090FF5 /* Squares.swift in Sources */,
+				920B56A41AE74EE50044760E /* LinkedList.swift in Sources */,
 				92DCCB4D1AB57D2D0030F433 /* AccumulateTest.swift in Sources */,
 				923ADD8D1A9A077100CF6D3F /* Bob.swift in Sources */,
 				92CF05421ABC18DD00B0C431 /* MeetupTest.swift in Sources */,
@@ -557,6 +566,7 @@
 				925E36AD1AC3D2B000E823D7 /* Atbash.swift in Sources */,
 				92FC5E9D1AACA74B00A0BA49 /* PhoneNumber.swift in Sources */,
 				929C2CC11ADA9C6D007A7646 /* PigLatinTest.swift in Sources */,
+				920B56A11AE7494B0044760E /* LinkedListTest.swift in Sources */,
 				929308071AC31345005AA291 /* ArrayKeepDiscard.swift in Sources */,
 				92DCCB501AB57ECD0030F433 /* Accumulate.swift in Sources */,
 				920621491AC0718F0035212A /* PrimeFactorsTest.swift in Sources */,
