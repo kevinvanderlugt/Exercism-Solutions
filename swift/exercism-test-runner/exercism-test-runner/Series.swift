@@ -32,14 +32,14 @@ class Series {
     }
 }
 
-extension String {
-    var length: Int { return count(self) }
-    
-    subscript (i: Int) -> Character {
-        return self[advance(self.startIndex, i)]
-    }
-    
-    subscript (r: Range<Int>) -> String {
-        return substringWithRange(Range(start: advance(startIndex, r.startIndex), end: advance(startIndex, r.endIndex)))
-    }
-}
+//extension String {
+//    var length: Int { return count(self) }
+//    
+//    subscript (i: Int) -> Character {
+//        return self[advance(self.startIndex, i)]
+//    }
+//    
+//    subscript (r: Range<Int>) -> String {
+//        return substringWithRange(Range(start: advance(startIndex, r.startIndex), end: advance(startIndex, r.endIndex)))
+//    }
+//}
