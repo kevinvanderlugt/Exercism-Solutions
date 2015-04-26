@@ -58,6 +58,9 @@
 		925478A01AB9A7CE006119A8 /* SpaceAgeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9254789E1AB9A7CE006119A8 /* SpaceAgeTest.swift */; };
 		925478A21AB9A83A006119A8 /* SpaceAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925478A11AB9A83A006119A8 /* SpaceAge.swift */; };
 		925478A31AB9A83A006119A8 /* SpaceAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925478A11AB9A83A006119A8 /* SpaceAge.swift */; };
+		925A456F1AE8CF7000E0132D /* TournamentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A456E1AE8CF7000E0132D /* TournamentTest.swift */; };
+		925A45711AE8D18700E0132D /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A45701AE8D18700E0132D /* Tournament.swift */; };
+		925A45721AE8D1C100E0132D /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A45701AE8D18700E0132D /* Tournament.swift */; };
 		925AC56B1AB3036700064358 /* PerfectNumbersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AC56A1AB3036700064358 /* PerfectNumbersTest.swift */; };
 		925AC56D1AB3042700064358 /* NumberClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AC56C1AB3042700064358 /* NumberClassifier.swift */; };
 		925AC56E1AB3045D00064358 /* NumberClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AC56C1AB3042700064358 /* NumberClassifier.swift */; };
@@ -172,6 +175,8 @@
 		9254789B1AB99D4C006119A8 /* TwelveDaysSong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwelveDaysSong.swift; sourceTree = "<group>"; };
 		9254789E1AB9A7CE006119A8 /* SpaceAgeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceAgeTest.swift; sourceTree = "<group>"; };
 		925478A11AB9A83A006119A8 /* SpaceAge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceAge.swift; sourceTree = "<group>"; };
+		925A456E1AE8CF7000E0132D /* TournamentTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TournamentTest.swift; path = ../../tournament/TournamentTest.swift; sourceTree = "<group>"; };
+		925A45701AE8D18700E0132D /* Tournament.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
 		925AC56A1AB3036700064358 /* PerfectNumbersTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfectNumbersTest.swift; sourceTree = "<group>"; };
 		925AC56C1AB3042700064358 /* NumberClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberClassifier.swift; sourceTree = "<group>"; };
 		925E36A91AC3D1D600E823D7 /* AtbashTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtbashTest.swift; sourceTree = "<group>"; };
@@ -188,6 +193,7 @@
 		929308051AC312CF005AA291 /* ArrayKeepDiscard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayKeepDiscard.swift; sourceTree = "<group>"; };
 		9297799E1AD9041C00EE0E58 /* OctalTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OctalTest.swift; sourceTree = "<group>"; };
 		929779A01AD904A600EE0E58 /* Octal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octal.swift; sourceTree = "<group>"; };
+		9298328A1AE8D3960053ED24 /* exercism.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = exercism.playground; sourceTree = "<group>"; };
 		929C2CB81AD93ABC007A7646 /* Luhn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Luhn.swift; sourceTree = "<group>"; };
 		929C2CBB1AD997A7007A7646 /* SeriesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesTest.swift; sourceTree = "<group>"; };
 		929C2CBD1AD998B6007A7646 /* Series.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
@@ -309,6 +315,8 @@
 				9220D01A1AE6955400805E0A /* Element.swift */,
 				920B56A21AE74A9C0044760E /* LinkedList.swift */,
 				92343CFA1AE7B49E00B06D98 /* Wordy.swift */,
+				925A45701AE8D18700E0132D /* Tournament.swift */,
+				9298328A1AE8D3960053ED24 /* exercism.playground */,
 			);
 			path = "exercism-test-runner";
 			sourceTree = "<group>";
@@ -324,6 +332,7 @@
 		923ADD7C1A9A067600CF6D3F /* exercism-test-runnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				925A456E1AE8CF7000E0132D /* TournamentTest.swift */,
 				92343CF81AE7B49300B06D98 /* WordyTest.swift */,
 				920B56A01AE7494B0044760E /* LinkedListTest.swift */,
 				9220D0181AE694DB00805E0A /* SimpleLinkedListTest.swift */,
@@ -492,6 +501,7 @@
 				9206214B1AC071BA0035212A /* PrimeFactors.swift in Sources */,
 				925478A21AB9A83A006119A8 /* SpaceAge.swift in Sources */,
 				920F65C01AA87F4F00CA652B /* ETL.swift in Sources */,
+				925A45711AE8D18700E0132D /* Tournament.swift in Sources */,
 				92FCD3741ABF1D5F00448136 /* RomanNumerals.swift in Sources */,
 				923ADD8C1A9A075E00CF6D3F /* Bob.swift in Sources */,
 				929308061AC312CF005AA291 /* ArrayKeepDiscard.swift in Sources */,
@@ -543,6 +553,7 @@
 				928E58921AC1A760006DE4C9 /* RaindropsTest.swift in Sources */,
 				928BDE1A1ABDE4AB0027DDC8 /* Triangle.swift in Sources */,
 				929C2CBC1AD997A7007A7646 /* SeriesTest.swift in Sources */,
+				925A45721AE8D1C100E0132D /* Tournament.swift in Sources */,
 				92CF053D1ABB37BA00B0C431 /* GigasecondTest.swift in Sources */,
 				920F65C11AA87F6F00CA652B /* ETL.swift in Sources */,
 				92FCD3751ABF1D9700448136 /* RomanNumerals.swift in Sources */,
@@ -559,6 +570,7 @@
 				92DCCB481AB46D460030F433 /* AllergiesTest.swift in Sources */,
 				92FCD3701ABF0AC800448136 /* Scrabble.swift in Sources */,
 				925AC56B1AB3036700064358 /* PerfectNumbersTest.swift in Sources */,
+				925A456F1AE8CF7000E0132D /* TournamentTest.swift in Sources */,
 				9297799F1AD9041C00EE0E58 /* OctalTest.swift in Sources */,
 				929C2CC41ADA9F05007A7646 /* PigLatin.swift in Sources */,
 				920A93661AB0A620004032A5 /* GradeSchool.swift in Sources */,
